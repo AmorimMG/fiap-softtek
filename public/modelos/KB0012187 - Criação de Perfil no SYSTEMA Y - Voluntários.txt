@@ -1,0 +1,58 @@
+INSTRUÇÃO DE TRABALHO (IT)
+Criação de Perfil no SISTEMA Y
+
+1. Introdução / Pré-requisitos para execução da IT
+
+Esta instrução de trabalho descreve a atividade de Troca de perfil de Usuário no SISTEMA Y.
+
+
+
+Pré-requisitos:
+Ambiente (DEV, QA, PROD)
+Nome do perfil que deseja criar;
+Tipo de Acesso que o perfil deverá ter;
+Aval da área do XXX (pesquisas com consumidor). Responsáveis:
+XXXXXX (XXXX@XXXX)
+  Revisão Semestral de Acessos
+Regularmente os acessos ao Sistema deverão ser revisados pelo Gestor do time de GQ-Digital.
+A lista de acessos ativos no sistema será gerada pelo time de Digital - Acessos
+A lista deve ser respondida pelo Gestor de Negócio validando a lista ativa ou informando quais inativações deverão ser realizadas
+O time de Digital - Acessos registrará as alterações a partir de chamados no Sistema de ITSM de Digital em nome do Gestor de GQ-Digital.
+O time de Digital - Acessos executará a atualização e finalizará o chamado com status de resolvido.
+
+2. Referência
+
+
+PROCEDIMENTO:
+
+3. Descrição das Atividades
+
+Acesse o browser de acordo com o ambiente solicitado:
+(Desenvolvimento);
+(Homologação);
+(Produção).
+
+Informe o e-mail corporativo e clique em "Avançar".
+
+3.2          Execute os seguintes passos:
+Clique no botão  > "Configurações" > "Segurança", conforme demonstrado abaixo:
+
+
+Clique em "Direitos de Acesso".
+
+
+Clique no botão “Novo”
+
+Preencha o campo “Nome da Função” com o valor informado nos pré-requisitos. No campo “Unidade de Negócio”, o valor deverá ser “GESTAO_AMBIENTE”
+
+Encontrar nas abas abaixo as entidades que o novo perfil terá acesso, de acordo com os pré-requisitos e selecionar a ação do perfil para aquela entidade. Clique em “Salvar e Fechar”
+
+
+3.3          Classificação do chamado: - Criação de Perfil no SISTEMA Y.
+
+4. Anexos
+
+
+Não há anexos.
+
+

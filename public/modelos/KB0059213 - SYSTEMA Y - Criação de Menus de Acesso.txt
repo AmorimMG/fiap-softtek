@@ -1,0 +1,97 @@
+  INSTRUÇÃO DE TRABALHO (IT)
+SISTEMA Y - Criação de Menus de Acesso
+
+
+Introdução / Pré-requisitos para execução da IT
+
+Esta instrução de trabalho visa orientar o analista a realizar a criação de usuário no SISTEMA Y
+
+Pré-requisitos:
+Acesso ao SISTEMA X;
+Acesso ao SISTEMA Z;
+Planilha “IT - SISTEMA Y_Criação de Menus” preenchida pelo usuário com o tipo de acesso a ser atribuído no Menu.
+ Revisão Semestral de Acessos
+Regularmente os acessos ao Sistemas deverão ser revisados pelo Gestor do time de GQ-Digital.
+A lista de acessos ativos no sistema será gerada pelo time de Digital - Acessos
+A lista deve ser respondida pelo Gestor de Negócio validando a lista ativa ou informando quais inativações deverão ser realizadas
+O time de Digital - Acessos registrará as alterações a partir de chamados no Sistema de ITSM de Digital em nome do Gestor de GQ-Digital.
+O time de Digital - Acessos executará a atualização e finalizará o chamado com status de resolvido.
+
+Referências
+
+Não há referências.
+
+Descrição das Atividades
+
+Para criação do Menu, é encaminhada ao usuário a planilha “IT - SISTEMA Y_Criação de Menus”, onde deve ser mapeado os acessos que precisará. Após o preenchimento da mesma, seguiremos o ítem 3.1.
+
+3.1.  Pelo navegador Internet Explorer digite o endereço: HTTPS://XXXXXXXXXXXXX
+
+3.1.1. Acesse a pasta SISTEMAS:
+3.1.2. Em seguida, acesse a pasta SISTEMA Y:
+3.1.3. Na pasta SISTEMA Y contém as opções de acesso:
+SISTEMA Y  SmartClient – PRD (Ambiente de Produção).
+SISTEMA Y  SmartClient – QAS (Ambiente de Qualidade e Desenvolvimento).
+
+	3.1.4. Abra o SISTEMA Z no ambiente que necessitar (Produção ou Qualidade).
+3.1.4.1. O Programa Inicial virá configurado como: SIGAEIC (SISTEMA Y  Import Control):
+		3.1.4.2. Para criação do usuário, deve-se alterar a configuração do Programa Inicial manualmente para: SIGACFG (Modo de Configuração):
+
+Observação: Os Parâmetros Iniciais possuem 03 campos, que são:
+
+Programa Inicial: É indicado o módulo de conexão do Protheus, será utilizado o SIGACFG que é o módulo configurador, onde é atribuído acesso ao usuário, criação de grupos, reset de senha, bloqueio de acesso e outros.
+Comunicação no Cliente: Indica o ambiente para conexão.
+Ambiente no Servidor: Indica o ambiente para conexão dentro do servidor.
+
+3.2. Digite seu usuário e senha e clique em “Acessar SISTEMA x”.
+3.2.1. Na próxima tela clique em “Entrar”.
+
+3.3. No menu do Configurador,  acesse as opções “Usuário > Cadastros > Menus” que abrirá a tela de Criação e Edição de Menus.
+
+3.3.1. Para criação de novo menu, temos como base o menu inicial do Ambiente SISTEMA Y  Import Control (EIC).
+
+	3.3.2. Clique em “Adicionar” os itens serão disponibilizados para o modo edição no “Novo Menu”.
+
+		3.3.3. Na tela “Configuração de Menus”, em “Novo Menu” são carregadas todas as telas presentes no ambiente EIC, nelas devemos aplicar as restrições conforme mapeamento da planilha. Segue abaixo descrição da tela para configuração das restrições:
+
+		3.3.3.1. Adicionar: Carrega o Menu para o modo edição;
+3.3.3.2. Remover: Remove o Menu do modo edição;
+		3.3.3.3. Novo Grupo: Adiciona uma nova pasta ao meu;
+		3.3.3.4. Novo Item: Adiciona um novo campo;
+		3.3.3.5. Detalhes: Selecionado o Item do Menu, podemos editar os acessos ao item;
+		3.3.3.6. Mover para Cima: Move o item de posição;
+		3.3.3.7. Mover para Baixo: Move o item de posição;
+3.3.3.8. Pesquisar;
+		3.3.3.9. Gerar: Gravar o Menu do Sistema;
+		3.3.3.10. Fechar: Fecha sem salvar as alterações.
+
+	3.4. Para restringir o acesso selecione o ítem que irá modificar, e clique no botão “Detalhes”.
+
+
+
+
+
+		3.4.1. Abrirá a tela abaixo para configuração do Menu:
+
+
+
+		3.4.1.1. Descrição: Informe o nome do ítem;
+		3.4.1.2. Programa: Selecione “EICZCC” para o nome do programa;
+		3.4.1.3. Status: Selecione o status do menu:
+			3.4.1.3.1. Habilitado: Menu terá acesso a configuração do ítem;
+			3.4.1.3.2. Desabilitado: Menu não terá acesso a configuração do ítem e  o visualizará.
+			3.4.1.3.3. Inibido: Menu terá acesso a configuração do ítem e não o visualizará.
+
+		3.4.1.4. Rotinas do browser: Opções devem ser selecionadas de acordo com o preenchimento da planilha “XX- SISTEMA Y_Criação de Menus”.
+
+	3.4.2. Após configuração do Menu, clique no botão “Gerar”. Salve o Menu com o mesmo nome. Em seguida clique em “Gerar” e logo após em “Fechar”.
+
+Exemplo: M_ACESSOS
+
+
+3.5. Para controle de acesso liberado no sistema SISTEMA Y, é necessário que atualize a planilha “Controle_Grupos_de_Acessos_ SISTEMA Y”, que encontra-se disponível no endereço:
+
+Anexos
+
+Anexo I - SISTEMA Y_Criação de Menus
+

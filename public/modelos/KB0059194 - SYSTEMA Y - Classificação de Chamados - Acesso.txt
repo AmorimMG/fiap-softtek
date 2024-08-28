@@ -1,0 +1,93 @@
+INSTRUÇÃO DE TRABALHO (IT)Sistema Y - Classificação de Chamados - Acesso
+
+1. Introdução / Pré-requisitos para execução da IT
+O objetivo dessa instrução de trabalho é descrever os serviços do SISTEMA Y e quais informações são necessárias para o suporte da ferramenta pela CS.
+
+***Nesta IT estão os passos que a CS deve seguir apenas dos serviços técnicos relacionados à gerência de Aplicações, suportados pelo grupo solucionador N1- xxxxx.
+
+1.1 Pré-Requisitos para os serviços técnicos;
+a) Somente deverá ser relatado um único assunto e única pessoa afetada por chamado, caso contrário, ou seja, mais de um colaborador ou assunto no mesmo chamado, o mesmo deverá ser cancelado.
+b) Os demais pré-requisitos estão descritos de acordo com o serviço técnico no Item 3.
+
+ Revisão Semestral de Acessos
+Regularmente os acessos ao Sistemas deverão ser revisados pelo Gestor do time de GQ-Digital.
+A lista de acessos ativos no sistema será gerada pelo time de Digital - Acessos
+A lista deve ser respondida pelo Gestor de Negócio validando a lista ativa ou informando quais inativações deverão ser realizadas
+O time de Digital - Acessos registrará as alterações a partir de chamados no Sistema de ITSM de Digital em nome do Gestor de GQ-Digital.
+O time de Digital - Acessos executará a atualização e finalizará o chamado com status de resolvido.
+
+2. Referências
+· GRUPO DESIGNADO: Refere-se a fila de atendimento para determinada solicitação.
+
+3. Descrição das Atividades
+
+Neste item, serão descritos os passos para a execução desta Instrução de Trabalho.
+
+Passo 1.0: Identificação da solicitação do usuário e coleta de pré-requisitos;
+1.1 Identificar o serviço técnico solicitado pelo usuário e coletar os devidos pré-requisitos de acordo com a classificação a ser utilizada no chamado que será aberto;
+
+Passo 2.0: Classificação do chamado;
+2.1 Classificar o chamado de acordo com as informações detalhadas em cada item no passo 3;
+
+Passo 3.0: Detalhamento de classificações;
+Alteração de Senha do de Usuário do SISTEMA Y
+Desbloqueio de Senha de Usuário do SISTEMA Y
+Criação de Usuário do SISTEMA Y
+Inativação de Usuário do SISTEMA Y
+Alteração de Usuário do SISTEMA Y
+
+
+Alteração de Senha de Usuário do Inativação de Usuário do SISTEMA Y
+Durante a implantação do SISTEMA Yo sistema foi configurado para a realizar a autenticação de usuário via AD, portanto, a alteração de senha do SISTEMA X ocorrerá automaticamente à partir da alteração de senha de rede no AD.
+
+Desbloqueio de Senha de Usuário do SISTEMA Y
+
+Pré-requisitos:
+· Nome do colaborador;
+· Usuário do SISTEMA Y;
+· Somente o usuário afetado, ou gerente imediato, poderão solicitar o desbloqueio da senha;
+
+Classificação do chamado:
+
+· GRUPO DESIGNADO: N1- xxxxx
+
+Criação de Usuário do SISTEMA Y
+
+Pré-requisitos:
+· Nome do colaborador;
+· Login de rede;
+· E-mail;
+· Grupo de acesso:
+· Everyone;
+· Admnistrator;
+· Help Desk Administrator.
+· Autorização de XXXXXX (XXXXXX@domínio.br).
+
+Classificação do chamado:
+· GRUPO DESIGNADO: N1- xxxxx
+Inativação de Usuário do SISTEMA Y
+Pré-requisitos:
+· Nome do colaborador;
+· Usuário do SISTEMA Y;
+· Motivo da inativação do usuário;
+· O RH ou gerente imediato poderá solicitar a inativação do usuário.
+· Ou com autorização de xxxxx
+
+Classificação do chamado:
+· GRUPO DESIGNADO: N1- xxxxx
+
+Alteração de Usuário do SISTEMA Y
+Pré-requisitos:
+· Nome do colaborador;
+· Usuário do SISTEMA Y;
+· Motivo da inativação do usuário;
+· O RH ou gerente imediato poderá solicitar a inativação do usuário.
+· Ou com autorização de xxxxx
+
+· .
+
+Classificação do chamado:
+· GRUPO DESIGNADO: N1- xxxxx
+4. Anexos
+Não há anexos.
+

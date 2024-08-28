@@ -1,0 +1,80 @@
+ INSTRUÇÃO DE TRABALHO (IT)
+
+Inativação de Acesso de Usuário no SISTEMA Y
+
+
+1.      Introdução / Pré-requisitos para execução da IT
+Esta Instrução de Trabalho tem por objetivo apresentar o processo de Inativação de Acesso de Usuário no SISTEMA Y e orientar todos os envolvidos no serviço para o desenvolvimento de suas atividades.
+As atividades aqui descritas envolvem as equipes Central de Serviços e Gestão de Acessos.
+ Revisão Semestral de Acessos
+Regularmente os acessos ao Sistema deverão ser revisados pelo Gestor do time de GQ-Digital.
+A lista de acessos ativos no sistema será gerada pelo time de Digital - Acessos
+A lista deve ser respondida pelo Gestor de Negócio validando a lista ativa ou informando quais inativações deverão ser realizadas
+O time de Digital - Acessos registrará as alterações a partir de chamados no Sistema de ITSM de Digital em nome do Gestor de GQ-Digital.
+O time de Digital - Acessos executará a atualização e finalizará o chamado com status de resolvido.
+
+2.      Referências
+
+3.      Descrição das Atividades
+Central de Serviços - CS
+3.1          Pré-requisitos:
+Caso a inativação de acesso não seja proveniente de desligamento de colaborador.
+O solicitante deve ter o e-mail padrão gerado pela planilha Template Solicitação de Serviços SYSTEMA Y e autorizado pelo Gerente Executivo, conforme exemplo abaixo. Caso necessário, encaminhar para o solicitante o link a seguir. Caso a inativação de acesso seja proveniente de desligamento de colaborador.
+Abertura de chamado de desligamento de colaborador.
+
+3.2          Atividades:
+Validar se o e-mail padrão está anexado ao chamado contendo a aprovação do Gerente Executivo, em casos em que a inativação de acesso não seja proveniente de desligamento de colaborador.
+Com todos os pré-requisitos preenchidos, o chamado deverá ser classificado com - Inativação de Acesso a Usuário no SISTEMA Y e enviar para o grupo solucionador N1 - ACESSOS.
+Obs.: Faltando algum pré-requisito, o chamado deverá ser cancelado com a seguinte informação: Esta solicitação está sendo cancelada por não conter os pré- requisitos necessários para seu atendimento. Para solicitações de Inativação de Acesso de Usuário no SISTEMA Y, acessar a planilha Template Solicitação de Serviços SYSTEMA Y, seguindo todas as orientações contidas na mesma.
+
+Gestão de Acessos - N1 - ACESSOS
+3.3          Pré-requisitos:
+Usuário com perfil administrador de acessos no Módulo QEF do SISTEMA Y.
+
+3.4          Atividades:
+Acessar o Módulo QEF do SISTEMA Y pelo link  Figura 1: Login no SISTEMA Y QEF.
+
+
+Selecionar o checkbox Windows Authentication e então clicar em LOG IN. O Sistema utilizará as credenciais do usuário do computador. A página abaixo será exibida.
+
+Figura 2: Página Inicial do SISTEMA Y QEF.
+
+Selecionar na guia SECTIONS, a seção Users and Groups.
+Figura 3: Selecionar Users and Group”.
+
+Selecionar Users.
+Figura 4: Selecionar Users.
+
+Filtrar o usuário a ser inativado, conforme Figura 5.
+Figura 5: Filtro de Usuário.
+
+Clicar em Member Of. Excluir o(s) grupo(s) vinculado(s) ao usuário, exceto All Users.
+
+
+Figura 6: Inativar Licença de Usuário.
+
+Confirmar a alteração do usuário no pop-up clicando em OK.
+
+Figura 7: Confirmação de Inativação do Usuário.
+
+
+Em casos de inativação(ões) de licença(s) de acesso(s), ou seja, retirada dos grupos “GrpQEP”, “GrpQIS”, “GrpQLM_QEA” e “GrpQLM_QEM”, seguir passos abaixo, caso contrário,
+Selecionar na guia SECTIONS, a seção Licenses.
+Figura 8: Selecionar “Licenses”.
+
+Selecionar a(s) licença(s) correspondente(s) ao(s) acesso(s) inativado(s).
+
+Figura 9: Selecionar Licença(s).
+
+Clicar no botão de refresh conforme destacado na Figura 10.
+Figura 10: Refresh da Licença.
+
+Confirmar a atualização da licença no pop-up clicando em OK.
+
+Figura 11: Confirmação de Atualização de Licença.
+
+Abrir o Anexo II - Controle de Licenças do SISTEMA Y e liberar a(s) licença(s) na coluna Em Uso do Gerente Executivo do usuário para cada tipo de licença inativada.
+Alterar o status do acesso ao SISTEMA Y do usuário na ZBO104 para “Inativo”.
+Concluir o chamado de inativação de acesso.
+4.      Anexos
+Não há Anexos.

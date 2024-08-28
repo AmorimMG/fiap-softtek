@@ -1,0 +1,45 @@
+INSTRUÇÃO DE TRABALHO (IT)
+Dynamics Artes - Remoção de Acesso
+
+1. Introdução / Pré-requisitos para execução da IT
+
+Esta instrução de trabalho descreve a execução das atividades de remoção de acesso dos colaboradores na ferramenta SISTEMA Y.
+Pré-requisitos Mínimos de Acesso ao SISTEMA Y:
+a) Equipamento (Desktop ou Notebook) devidamente configurado com acesso à internet e pacote Office;
+b) Acesso à ferramenta Microsoft Dynamics CRM 365 Completo (perfil Administrador de Sistema):
+c) Nome do Usuário, aplicativos que irá remover;
+d) Unidade de Negócio em que o usuário será alocado caso a remoção seja parcial;
+
+ Revisão Semestral de Acessos
+Regularmente os acessos ao Sistemas deverão ser revisados pelo Gestor do time de GQ-Digital.
+A lista de acessos ativos no sistema será gerada pelo time de Digital - Acessos
+A lista deve ser respondida pelo Gestor de Negócio validando a lista ativa ou informando quais inativações deverão ser realizadas
+O time de Digital - Acessos registrará as alterações a partir de chamados no Sistema de ITSM de Digital em nome do Gestor de GQ-Digital.
+O time de Digital - Acessos executará a atualização e finalizará o chamado com status de resolvido.
+
+
+2. Referências
+Não há.
+
+3. Descrição das Atividades
+1. Para remoção de acesso ao APLICATIVO de Artes:
+No SISTEMA Y (SISTEMA Y -> Configurações -> Segurança -> Usuários), selecione o usuário e retire TODOS direitos de Acesso da lista, clicando em ‘Gerenciar Funções’:
+· [ART] - Artes
+· [ART] - Artes Mobile
+· [ART] - Aprovador Briefing
+· [ART] - Aprovador Material
+· [ART] - Solicitante
+· [ART] - Coordenador Artes
+· [ART] - Equipe Artes
+· [ART] - Responsável Trade
+NOTAS:
+Caso a remoção de acesso seja PARCIAL, ou seja, o usuário terá acesso a outros Aplicativos, deve-se adotar o procedimento descrito pelos Aplicativos mantidos para realocar à nova Unidade de Negócio.
+Caso a remoção de acesso seja TOTAL, deve-se:
+1) Retirar o direito de acesso “Colaboração” ao usuário no Sharepoint Online para os sites:
+2) Retirar ou Revisar a Licença aos Produtos no Centro de Administração do Office 365.
+
+Anexos
+Sem anexo
+
+
+

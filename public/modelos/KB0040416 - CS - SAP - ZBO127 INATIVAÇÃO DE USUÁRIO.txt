@@ -1,0 +1,49 @@
+INSTRUÇÃO DE TRABALHO (IT)
+ZBO127_ INATIVAÇÃO DE USUÁRIO PELO RH
+
+1. Introdução / Pré-requisitos para execução da IT
+Esta instrução de trabalho visa orientar o analista/assistente a realizar a inativação de colaborador no cadastro único de usuários do SAP.
+O RH Operacional realiza inativação de acesso para colaborador das categorias Funcionário e Terceiro.
+A Central de Serviços realiza inativação de acesso para colaborador da categoria Terceiro.
+1.1 Pré-requisitos:
+a) Nome de identidade e e-mail autorizando a revogação (Recebido na caixa “suporte.A EMPRESA X ”).
+b) Acesso à transação ZBO127.
+
+ Revisão Semestral de Acessos
+Regularmente os acessos ao Sistema deverão ser revisados pelo Gestor do time de GQ-Digital.
+A lista de acessos ativos no sistema será gerada pelo time de Digital - Acessos
+A lista deve ser respondida pelo Gestor de Negócio validando a lista ativa ou informando quais inativações deverão ser realizadas
+O time de Digital - Acessos registrará as alterações a partir de chamados no Sistema de ITSM de Digital em nome do Gestor de GQ-Digital.
+O time de Digital - Acessos executará a atualização e finalizará o chamado com status de resolvido.
+
+
+
+2. Referências
+Não há referencias.
+
+3. Descrição das Atividades
+Passo 01: Realizar abertura do chamado no sistema conforme print abaixo:
+Categoria: Acesso > Inativação de Usuário > Sintoma: Desligamento de Terceiro.
+
+Motivo da Inativação:
+- Revogação solicitada via e-mail por XXXXXX
+Descrição:
+- -Sr(a). xxx, solicita revogação de acesso para: xxx
+
+Passo 02: Abrir o SAP Logon e selecionar o sistema “02) SAP ERP Produção”.
+Passo 03: Em Mandante digite 000 > Digite seu usuário e senha > “Enter”.
+Passo 04: Digite a transação “ZBO127” Tecle “Enter”.
+Passo 05: Digite o número da identidade no campo “identidade” e tecle enter. Caso não saiba o número da identidade, clique no mechcode  do campo “identidade”.
+
+05.1 - Digite o Nome do usuário no campo “Nome da Identidade” ou componha uma busca com quantos campos for necessário e clique no botão avançar
+05.2- Verifique o Nome da Identidade e clique no botão avançar .
+Passo 06: Após encontrar o número da identidade tecle” enter”.
+ Se o usuário estiver ativo:
+Passo 07: Clique no botão inativar .
+Passo 08: Insira a Data de desligamento do usuário no modelo DD.MM.AAAA e se desejável descreva o Motivo do desligamento.
+Passo 09: Após realizar todas as alterações, clique no botão salvar .
+Passo 10: Aparecerá um pop up de Confirmação de que foi encaminhada a solicitação de serviço à central, clique em
+Obs: Caso o colaborador tenha acesso a sistemas e equipamentos alocados serão abertos chamados de forma automática para revogação deles.
+4. Anexos
+Não há anexos.
+

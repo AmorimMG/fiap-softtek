@@ -1,0 +1,79 @@
+IT- INSTRUÇÃO DE TRABALHO
+CS- SAP PORTAL – DESBLOQUEIO DE USUÁRIO
+
+Introdução / Pré-requisitos para execução da IT
+
+Esta instrução de trabalho tem como objetivo orientar os analistas no processo de desbloqueio de usuário no sistema SAP e Portal SAP.
+1.1         Pré-requisitos:
+
+
+
+Nome completo do usuário;
+Login do usuário nos sistemas SAP e Portal SAP;
+Acesso ao SAP Solution Manager;
+Acesso ao Portal SAP;
+Chamado deve ser solicitado/registrado pelo próprio usuário ou pelo gestor imediato.
+
+ Revisão Semestral de Acessos
+Regularmente os acessos ao Sistema deverão ser revisados pelo Gestor do time de GQ-Digital.
+A lista de acessos ativos no sistema será gerada pelo time de Digital - Acessos
+A lista deve ser respondida pelo Gestor de Negócio validando a lista ativa ou informando quais inativações deverão ser realizadas
+O time de Digital - Acessos registrará as alterações a partir de chamados no Sistema de ITSM de Digital em nome do Gestor de GQ-Digital.
+O time de Digital - Acessos executará a atualização e finalizará o chamado com status de resolvido.
+
+
+Referências
+
+Não há referências.
+
+Descrição das Atividades
+
+
+Para desbloquear acesso do usuário no sistema SAP e Portal SAP, siga os passos abaixo:
+
+Para usuários terceiros, caso a solicitação seja registrada pelo gestor imediato, é necessário seguir os passos abaixo:
+
+Realize a comparação do gestor que respondeu o e-mail com o gestor cadastrado na transação ZBO103 e siga orientações abaixo:
+Caso seja o mesmo gestor, prossiga com o passo 3.2.
+Caso sejam gestores diferentes, faça:
+Abra chamado relacionado para Correção de dados cadastrais
+Realize a alteração do gestor responsável pela abertura do chamado.
+Prossiga o atendimento da solicitação conforme passo 3.2.
+Observação: Deve ser considerado Gestor imediato para terceiro: Coordenador, Gerente e Diretor.
+ Acesse o sistema SAP, no ambiente 06) SAP Solution Manager:
+ Digite a transação “SU01” e tecle “Enter”:
+ Clique no matchcode :
+
+Informe o nome do usuário e clique no botão  ou tecle “Enter” para realizar a Busca.
+
+Selecione o usuário e clique no botão ou tecle “Enter”.
+Em seguida, clique no botão  para realizar o desbloqueio:
+Clique no botão .
+Informe o número do chamado e clique em  ou tecle “Enter”.
+Para desbloquear acesso no SAP Portal é necessário acessar o endereço do ambiente desejado, informe usuário, senha e clique em “Logon”:
+
+
+
+                3.10.1 Endereços do SAP Portal:
+
+Ambiente de Produção: https://xxxxxxxxxxxxxx
+Ambiente de desenvolvimento: https://xxxxxxxxxxxxxx
+    Ambiente de qualidade: https://xxxxxxxxxxxxxx
+
+
+Selecione a aba “Administração de Usuário”, informe o usuário que deseja realizar desbloqueio e tecle “Enter”.
+
+
+3.12       Selecione o usuário, em “Detalhes para Usuário” clique na aba “Informações sobre a conta” e certifique que o campo “Senha bloqueada” está selecionado. Clique em “Modificar”:
+
+
+
+
+Clique na aba “Informações gerais”, informe a senha nos campos “Definir senha” e “Confirmar senha” e clique em “Gravar”:
+Certifique que o campo “Senha bloqueada”, na aba “Informações sobre a conta” não está selecionado.
+
+
+Anexos
+
+Não há anexos.
+

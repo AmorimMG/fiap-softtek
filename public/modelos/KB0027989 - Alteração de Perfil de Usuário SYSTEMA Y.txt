@@ -1,0 +1,48 @@
+INSTRUÇÃO DE TRABALHO (IT)
+ALTERAÇÃO DE PERFIL NO SISTEMA Y
+
+1. Introdução / Pré-requisitos para execução da IT
+Este documento estabelece os procedimentos que a Central de Serviço deverá seguir para abertura de chamado de alteração de perfil de usuário no SYSTEMA Y.
+1.1 Pré-requisitos:
+a) Nome Completo do colaborador;
+b) Usuário de acesso ao sistema;
+c) Ambiente que deseja alteração (QAS e PRD);
+d) Motivo da alteração de perfil;
+e) Grupo de acesso ou usuário cópia.
+f) Autorização do gerente imediato do colaborador.
+ Revisão Semestral de Acessos
+Regularmente os acessos ao Sistema deverão ser revisados pelo Gestor do time de GQ-Digital.
+A lista de acessos ativos no sistema será gerada pelo time de Digital - Acessos
+A lista deve ser respondida pelo Gestor de Negócio validando a lista ativa ou informando quais inativações deverão ser realizadas
+O time de Digital - Acessos registrará as alterações a partir de chamados no Sistema de ITSM de Digital em nome do Gestor de GQ-Digital.
+O time de Digital - Acessos executará a atualização e finalizará o chamado com status de resolvido.
+
+
+2. Referências
+· GRUPO DESIGNADO: Refere-se a fila de atendimento para determinada solicitação (N1-ACESSOS)
+
+3. Descrição das Atividades
+Acesse o sistema via Internet Explorer utilizando o endereço ambiente de DESENVOLVIMENTO
+PRODUÇÃO.
+3.1. Faça logon utilizando o usuário e senha de ADMINISTRADOR para acesso ao sistema.
+
+
+3.2. Clique em Configurações:
+
+
+3.3. Na tela que abriu, clique em Usuários:
+
+
+
+
+3.4. Na tela que abriu, clique sobre o usuário que deseja alterar o perfil.
+
+
+
+3.5. Informe o tipo de perfil que o usuário terá, de acordo com as opções existentes e clique em salvar.
+
+
+
+
+4. Anexos
+Não há anexos.

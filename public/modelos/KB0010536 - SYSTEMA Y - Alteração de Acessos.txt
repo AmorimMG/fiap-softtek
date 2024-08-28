@@ -1,0 +1,60 @@
+
+INSTRUÇÃO DE TRABALHO (IT)
+SISTEMA Y- Alteração de Acessos
+1. Introdução / Pré-requisitos para execução da IT
+Esta Instrução de Trabalho visa orientar na atividade de alteração de acesso do usuário no sistema SISTEMA Y.
+1.1 Pré-requisitos
+a) Ter acesso ao sistema SISTEMA Ycom permissão para alterar acesso.
+b) Nome completo do usuário;
+c) Tipo da alteração de acesso (Perfil);
+d) O chamado deverá ser aberto ou possuir anexo de autorização das colaboradoras:
+Obs.: Caso o usuário seja da localidade Anápolis/Brainfarma será válido o aval da documentação técnica:
+X
+
+ Revisão Semestral de Acessos
+Regularmente os acessos ao Sistema deverão ser revisados pelo Gestor do time de GQ-Digital.
+A lista de acessos ativos no sistema será gerada pelo time de Digital - Acessos
+A lista deve ser respondida pelo Gestor de Negócio validando a lista ativa ou informando quais inativações deverão ser realizadas
+O time de Digital - Acessos registrará as alterações a partir de chamados no Sistema de ITSM de Digital em nome do Gestor de GQ-Digital.
+O time de Digital - Acessos executará a atualização e finalizará o chamado com status de resolvido.
+
+2. Referências
+Não há referências.
+3. Descrição das Atividades
+3.1. Para alterar acessos de usuários no sistema SISTEMA Y acesse o sistema no link:
+http://xxxxxxxxxxxxxxxx
+  3.1.1. Logar no sistema com seu “Login” e “Senha”, após clicar em “Enviar”.
+
+
+     3.1.2. No menu “Administração” escolher  a opção “Controle de Acesso”.
+
+
+     3.1.3. No menu “Controle” clique  na opção “Usuário”.
+
+
+    3.1.4. Em “Lista de Usuários” inserir o nome completo do usuário que necessita alterar o tipo de acesso e clicar em Listar, em seguida clicar no nome do mesmo.
+
+
+
+
+
+    3.1.5. Com o cadastro do usuário aberto, clicar em “Ação > Editar Usuário”:
+
+
+    3.1.6. Em seguida, clique em “Pertence aos grupos”, onde abrirá a janela “Lista de grupos” para marcar o grupo que o usuário            pertencerá:
+
+
+
+    3.1.7. Após, clique em “Atribuições”, onde abrirá a janela “Lista de Atribuições” para selecionar o acesso que o usuário terá:
+
+
+
+
+    3.1.8. Com o acesso do usuário alterado, clicar em “Ação > Salvar Usuário”:
+
+
+
+4. Anexos
+Não há anexos.
+
+

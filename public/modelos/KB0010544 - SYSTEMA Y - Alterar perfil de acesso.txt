@@ -1,0 +1,42 @@
+INSTRUÇÃO DE TRABALHO (IT)
+SISTEMA Y - Alterar Perfil de Acesso
+1. Introdução / Pré-requisitos para execução da IT
+Esta instrução de trabalho orienta o passo a passo para atribuição de grupos de acesso ao SISTEMA Y, para a atribuição do mesmo é necessário que os seguintes questionamentos tenham sido respondidos via chamado. Com autorização gerencial em anexo.
+1.1 Pré-requisitos
+a) Nome do colaborador;
+b) Usuário do Sistema SISTEMA Y;
+c) Motivo da alteração do perfil;
+d) Tipo e Grupo de acesso ou usuário cópia;
+e) Autorização gerencial.
+
+ Revisão Semestral de Acessos
+Regularmente os acessos ao Sistema deverão ser revisados pelo Gestor do time de GQ-Digital.
+A lista de acessos ativos no sistema será gerada pelo time de Digital - Acessos
+A lista deve ser respondida pelo Gestor de Negócio validando a lista ativa ou informando quais inativações deverão ser realizadas
+O time de Digital - Acessos registrará as alterações a partir de chamados no Sistema de ITSM de Digital em nome do Gestor de GQ-Digital.
+O time de Digital - Acessos executará a atualização e finalizará o chamado com status de resolvido.
+
+2. Referências
+Não há referências.
+3. Descrição das Atividades das Atividades
+3.1 Atribuir perfil de acesso ao SISTEMA Y
+Após o usuário está criado é necessário que o mesmo seja atribuído a um perfil de acesso. Seguindo os passos abaixo.
+Clique em "Users" e todos os usuários cadastrados no sistema serão exibidos.
+Obs.: Existem três grupos de usuários: Ativos, Inativos ou Removidos.
+Ativos (Active): São usuários ativos no sistema, é possível acesso ao sistema de acordo com o seu nível de permissão de acesso e grupo de acesso atribuído;
+Inativos (Disable): São usuários inativos no sistema, não sendo possível a sua conexão no sistema independentemente do nível de acesso ou grupo atribuído.
+Obs.: O status Inativo é utilizado em caso de férias, ou ausência do usuário por um período X de dias. Neste cenário somente o usuário solicitará sua reativação.
+Removidos (Removed): São usuários removidos do sistema, não sendo possível a sua conexão no sistema independentemente do nível de acesso ou grupo atribuído.
+Obs.: Esta opção é utilizada para colaboradores que foram desligados da companhia ou que não utilizarão o Empower em suas atividades.
+O perfil de aceso deve ser o mesmo em “Allowed User Types”e “Default User Type”.
+Como próximo passo, marque o chekbox "Password Required"
+Em Default User Interface, selecione a opção “Pro”
+
+Nos checkbox da caixa “Allowed Interfaces”
+Deixe marcado somente “Pro Interfaces”
+
+Recapitulando, após todas as configurações, a tela deve ser idêntica à tela abaixo. Somente os campos User Name, Full Name, Allowed User Types e Default User Types devem ser modificados de acordo com os requisitos que foram enviados pelo usuário.
+
+
+Anexos
+Não há anexos.

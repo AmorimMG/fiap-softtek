@@ -1,0 +1,94 @@
+INSTRUÇÃO DE TRABALHO SYSTEMA Y – Gestão de Acessos
+1. Introdução / Pré-requisitos para execução da IT
+Esta instrução de trabalho tem por objetivo descrever os processos de execução referente à gestão de acesso do usuário no sistema SISTEMA Y.
+
+ Revisão Semestral de Acessos
+Regularmente os acessos ao Sistemas deverão ser revisados pelo Gestor do time de GQ-Digital.
+A lista de acessos ativos no sistema será gerada pelo time de Digital - Acessos
+A lista deve ser respondida pelo Gestor de Negócio validando a lista ativa ou informando quais inativações deverão ser realizadas
+O time de Digital - Acessos registrará as alterações a partir de chamados no Sistema de ITSM de Digital em nome do Gestor de GQ-Digital.
+O time de Digital - Acessos executará a atualização e finalizará o chamado com status de resolvido.
+
+2. Referências
+Não há referências.
+3. Descrição das Atividades
+3.1 Alteração de Senha do Sistema Y
+
+Pré-Requisitos:
+· Nome completo;
+· Login;
+· Divisão.
+
+Obs.: Para os colaboradores com cargo Promotor, o usuário afetado e relatado será o gestor cadastrado na Base Única, transação ZBO103.
+Classificação do chamado:
+Direcionar chamado: Grupo N1-XXXXXXXXX
+Descrição das atividades:
+Após acessar o SISTEMA Y, selecione o menu “Admin.Sistema” e em seguida clique na opção “Usuário”:
+
+Pesquise o usuário através do botão:
+Informe o Nome completo do usuário e clique em “Procurar”, conforme abaixo:
+
+Selecione o colaborador e clique no botão “Alterar Senha”:
+Informe a senha no campo “Nova Senha” e clique no botão “Alterar Senha”: Solucione o chamado.
+
+3.2 Alteração de Perfil de Usuário do Sistema Y.
+São autorizados para registrar chamado ou validar via e-mail:
+
+1. Pré-requisitos: SISTEMA Y
+São autorizados para registrar chamado ou validar via e-mail:
+· RH;
+· Responsabilidade por área:
+· Administração de Vendas: XXXXX
+· Aplicações: XXXXX
+· Desenvolvedor: XXXXXX.
+· Funcional TI Base: XXXXXX
+· Gestão de Acesso: XXXXX
+· Central de Serviços: XXXXX.
+· Controles Internos: XXXXXX, ou possuir seu aval anexado no chamado.
+Informar os dados abaixo:
+· Nome Completo;
+· Responsabilidade;
+· Responsabilidade TI – Gerente de Aplicações, ou possuir seu aval anexado no chamado;
+· Posição;
+· Divisão do Colaborador;
+· Usuário Cópia;
+· Setor (para Promotor);
+· Supervisor do Promotor (para Promotor).
+Classificação do chamado: Gestão de Acessos \ Alteração de Perfil de Usuário do Sistema SYSTEMA Y
+Direcionar chamado: Grupo N1-xxxxxxxxx
+3.3 Alteração de Perfil do SISTEMA Y.
+Para alterar, adicionar ou remover nova(s) tela(s) em perfil existente, cuja alteração é refletida para todos os usuários desse mesmo perfil, ou solicitar a criação de um novo perfil, são autorizados para registrar chamado:
+· Colaborador da Companhia, exceto XXXXXX e YYYYYYYY, conforme cadastrado na Base Única, transação ZBO103.
+· Informações necessárias para abertura do chamado:
+· Aval do gestor cadastrado na Base Única, transação ZBO103;
+· Módulo;
+· Tela;
+· Tipo de acesso.
+
+Classificação do chamado:Gestão de Acessos \ Alteração de Perfil do SYSTEMA Y Direcionar chamado: Grupo N1-xxxxxxxxx
+Criação de Usuário do SISTEMA Y.
+São autorizados para registrar chamado ou validar via e-mail:
+2. Pré-requisitos: SISTEMA Y
+São autorizados para registrar chamado ou validar via e-mail:
+· RH;
+· Responsabilidade por área:
+· Administração de Vendas: XXXXXX
+· Aplicações: XXXXXX
+· Desenvolvedor: XXXXXX
+· Funcional TI Base: XXXXXX.
+· Gestão de Acesso: XXXXXX.
+· Central de Serviços: XXXXXX
+· Controles Internos: XXXXXX ou possuir seu aval anexado no chamado.
+Informar os dados abaixo:
+· Nome Completo;
+· Responsabilidade;
+· Responsabilidade TI – Gerente de Aplicações, ou possuir seu aval anexado no chamado;
+· Posição;
+· Divisão do Colaborador;
+· Usuário Cópia;
+· Setor (para Promotor);
+· Supervisor do Promotor (para Promotor).
+Classificação do chamado: Gestão de Acessos \ Criação de Usuário do SYSTEMA Y
+Direcionar chamado: Grupo N1-xxxxxxxxxxxx
+4. Anexos
+Não há anexos.

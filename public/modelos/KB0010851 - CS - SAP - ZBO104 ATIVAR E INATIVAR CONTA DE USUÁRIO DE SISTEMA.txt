@@ -1,0 +1,85 @@
+
+INSTRUÇÃO DE TRABALHO
+ZBO104 - ATIVAR E INATIVAR CONTA DE USUÁRIO DE SISTEMA
+
+
+Introdução / Pré-requisitos para execução da IT
+
+Esta instrução de trabalho visa orientar analista/assistente das áreas: Central de Serviços, Satélite e Operação, a ativar ou inativar uma conta de sistema no cadastro único de usuários do SAP.
+Pré-requisitos:
+
+
+Número da Identidade do usuário no SAP, ou número do CPF;
+Dados da conta do sistema;
+Acesso à transação ZBO104 e ao sistema específico;
+Possuir Login cadastrados e ativos dos SYSTEMA Y e SAP na transação ZBO104 para a própria identidade que irá realizar a ativação/ inativação, caso a solicitação seja para esses sistemas.
+
+ Revisão Semestral de Acessos
+Regularmente os acessos ao Sistema deverão ser revisados pelo Gestor do time de GQ-Digital.
+A lista de acessos ativos no sistema será gerada pelo time de Digital - Acessos
+A lista deve ser respondida pelo Gestor de Negócio validando a lista ativa ou informando quais inativações deverão ser realizadas
+O time de Digital - Acessos registrará as alterações a partir de chamados no Sistema de ITSM de Digital em nome do Gestor de GQ-Digital.
+O time de Digital - Acessos executará a atualização e finalizará o chamado com status de resolvido.
+
+ Referências
+
+
+ Descrição das Atividades
+Responsabilidades da Central de serviços para revogação dos sistemas: SYSTEMA Y e SAP.
+Responsabilidades de Acessos para revogação do sistema: SYSTEMA Y.
+Responsabilidades da Operação para revogação do sistema: AD (Usuário de rede).
+
+Para inativar os acessos dos sistemas descritos acima, siga os passos abaixo:
+
+Passo 01: Abra o SAP Logon e clique duas vezes no ambiente “02) SAP ERP Produção”.
+
+
+Passo 02: Digite o número da identidade ou o CPF do colaborador, clique no mechcode executar  ou tecle “Enter”.
+
+
+Passo 03: Para inativar uma conta, selecione a conta, clique no mechcode “Ativar/inativar Conta”  ou tecle “F6”.
+
+Observação: Caso a conta a ser Ativada/Inativada seja dos sistemas SYSTEMA Y, ir para o “Passo 05”.
+
+3.1. Clique no mechcode  para finalizar a alteração.
+
+
+
+Passo 04: Após finalizar a alteração, verifique se o campo “Status cta” está de acordo com o solicitado.
+
+Observação: “A” para Ativo e “I” para Inativo.
+
+
+
+Passo 05: Para inativar uma conta do SYSTEMA Y, selecione a conta e clique no mechcode “Ativar/inativar Conta”  ou clique em “F6” conforme o “Passo 3”.
+
+                5.1. Clique no mechcode  para sair do log de execução SM49.
+
+Observação: Se na tela aparecer a informação “1 rows affected”, a inativação foi realizada com sucesso. Caso apareça a informação “0 rows affected”, não houve inativação, siga o “Passo 8”.
+
+
+
+Passo 5.2: Clique no mechcode  para finalizar a alteração.
+
+
+
+Passo 06: Após finalizar a alteração, verifique se o campo “Status cta” está de acordo com o solicitado.
+
+Observação: “A” para Ativo e “I” para Inativo.
+
+
+Passo 07: Caso apareça a tela abaixo ao desativar os SYSTEMA Y e SAP, clique no mechcode  para sair do log de execução SM49.
+
+Observação: Conforme o “Passo 6.1”, caso apareça “0 rows affected”, significa que a inativação não foi realizada.
+
+7.1: Como mostra a mensagem de erro no canto inferior da tela, o usuário não foi encontrado no sistema. E como mostra o campo “Status cta”, o status da conta não foi alterado.
+
+Observação: Caso tenha ocorrido o processo acima, será necessário ir ao sistema correspondente e procurar pelo funcionário. Se o login for encontrado e estiver cadastrado errado, será necessário excluir e cadastrar a conta novamente para a identidade conforme as IT‘s.
+
+
+
+ Anexos
+
+Não há anexos.
+
+

@@ -1,0 +1,47 @@
+INSTRUÇÃO DE TRABALHO
+INFRA - SYSTEMA Y - LIBERAÇÃO DE ACESSO SYSTEMA Y
+
+Introdução / Pré-requisitos para execução da IT
+
+Liberação de acesso ao SYSTEMA Y
+
+Pré-requisitos:
+
+Aval do Gerente responsável com CDC.
+Após central de serviços coletar os pré-quesitos irá recategorizar o chamado para fila do time de “X”.
+
+Categoria: A
+Subcategoria: B
+Sintoma: C
+Qualificação Sintoma: D
+Referências
+
+Não há referências.
+
+Descrição das Atividades
+
+Procedimento de liberação de acesso ao SYSTEMA Y
+Validação de Licença, verificar se existe licença E5 publicada para colaborador (M365 XXXXXXX XXX) no Active Directory.
+
+Incluir usuário no grupo de liberação da ferramenta Azure Virtual desktop (AVD) “G-XXXXXX- SYSTEMA Y”.
+
+
+
+
+
+
+
+
+Métodos de acesso.
+
+Cliente Área de Trabalho do Windows (recomendado - 01):
+
+Cliente Microsoft Store (recomendado - 02)
+
+Cliente para área de trabalho MacOS.
+Cliente WEB (recomendado somente em último caso por não apresentar total performance)
+
+
+Anexos
+
+Não há anexos.

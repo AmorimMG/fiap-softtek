@@ -1,0 +1,31 @@
+INSTRUÇÃO DE TRABALHO
+FIELD – SISTEMA Y – ANDROID
+
+Introdução / Pré-requisitos para execução da IT
+
+Este documento tem por objetivo orientar o time de FieldService na padronização de móveis destinado ao público Android Xxxxx.
+
+Pré-requisitos:
+Realizar previamente o cadastro do SN do dispositivo no portal SISTEMA Y  pelo link htttxxxxxxxxxx..
+Perfil destinado a todos os cargos até gerencia.
+Referências
+
+ND
+
+
+Descrição das Atividades
+Após realizar o HardReset, selecione o idioma e clique em Iniciar. Em seguida no lugar do e-mail insira o valor afw#setup e clique em Próxima
+
+Siga com a instalação do Android Device Policy e aceite os termos.
+
+Aponte a câmera para o QRCode. Caso apresente erro na leitura você pode inserir o código RUCNJNUC.
+
+Aceite os termos novamente e faça logon com a conta Da EMPRESA X do colaborador.
+
+Clique em entrar e faça logon novamente com a conta Da EMPRESA X do colaborador.
+
+Finalizado, basta aguardar que os aplicativos e demais configurações sejam aplicados automaticamente.
+
+Anexos
+
+ND

@@ -1,0 +1,44 @@
+INSTRUÇÃO DE TRABALHO
+CS - SAP PORTAL - RESET DE SENHA
+
+1. Introdução / Pré-requisitos para execução da IT
+Esta instrução de trabalho tem como objetivo orientar os analistas no processo de alteração de senha do usuário nos sistemas SAP e Portal SAP.
+
+Pré-requisitos:
+a) Nome completo do usuário;
+b) Login do usuário nos sistemas SAP e Portal SAP;
+c) Acesso ao SAP Solution Manager;
+d) Acesso ao Portal SAP;
+e) Chamado deve ser solicitado/registrado pelo próprio usuário ou pelo gestor imediato.
+ Revisão Semestral de Acessos
+Regularmente os acessos ao Sistema deverão ser revisados pelo Gestor do time de GQ-Digital.
+A lista de acessos ativos no sistema será gerada pelo time de Digital - Acessos
+A lista deve ser respondida pelo Gestor de Negócio validando a lista ativa ou informando quais inativações deverão ser realizadas
+O time de Digital - Acessos registrará as alterações a partir de chamados no Sistema de ITSM de Digital em nome do Gestor de GQ-Digital.
+O time de Digital - Acessos executará a atualização e finalizará o chamado com status de resolvido.
+
+2. Referências
+Não há referências.
+
+3. Descrição das Atividades
+Para alterar senha do usuário no sistema Portal SAP, siga os passos abaixo:
+3.1 Para realizar alteração de senha do usuário no SAP Portal é necessário acessar o endereço do ambiente desejado, informe usuário, senha e clique em “Logon”:
+
+3.1.1 Endereços do SAP Portal:
+a) Ambiente de Produção: https://xxxxxxxxxxxxxxxxxxxxxx
+b) Ambiente de desenvolvimento: https://xxxxxxxxxxxxxxxxxxxxxx
+c) Ambiente de qualidade: https://xxxxxxxxxxxxxxxxxxxxxx
+
+3.2 Selecione a aba “Administração de Usuário”, informe o usuário que deseja realizar alteração de senha, tecle “Enter”, selecione o usuário e clique em “Modificar”.
+
+
+3.3 Na aba “Informações Gerais”, altere a senha através dos campos “Definir Senha” e “Confirmar Senha”. Em seguida, clique em “Gravar”.
+
+
+4. Anexo
+N/A
+
+
+
+
+

@@ -1,0 +1,81 @@
+INSTRUÇÃO DE TRABALHO (IT)
+SYSTEMA Y - CRIAÇÃO DE USUÁRIO
+1. Introdução / Pré-requisitos para execução da IT
+Este documento estabelece o procedimento que os analistas de acessos deverão seguir para criação de usuário no SISTEMA Y.
+1.1 Pré-requisitos:
+a) Nome Completo do usuário;
+b) E-mail corporativo do usuário;
+c) Login de rede do usuário;
+d) Perfil a ser atribuído ou usuário cópia;
+e) Ambiente que deseja acesso (DEV e PRD);
+f) Aval do Gerente de Compliance Fiscal:
+g) Informar o Módulo desejado (Administração, ECF, EFD Reinf);
+h) Acesso administrativo ao SYSTEMA Y.
+Revisão Semestral de Acessos
+Regularmente os acessos ao Sistema deverão ser revisados pelo Gestor do time de GQ-Digital.
+A lista de acessos ativos no sistema será gerada pelo time de Digital - Acessos
+A lista deve ser respondida pelo Gestor de Negócio validando a lista ativa ou informando quais inativações deverão ser realizadas
+O time de Digital - Acessos registrará as alterações a partir de chamados no Sistema de ITSM de Digital em nome do Gestor de GQ-Digital.
+O time de Digital - Acessos executará a atualização e finalizará o chamado com status de resolvido.
+
+
+2. Referências
+· Abertura de chamado - Central de Serviços
+3. Descrição das Atividades
+Acesse o sistema via Internet Explorer utilizando o endereço HTTPS://XXXXXX ambiente de DESENVOLVIMENTO. Faça logon utilizando o usuário e senha de acesso. Também pode ser selecionado o idioma, em caso do não preenchimento será considerado idioma selecionado na criação do usuário.
+3.1. Clique em Administração:
+3.2. Acesse o menu Segurança> Usuário:
+Para criar um novo usuário clique em “Segurança” e depois “Usuário”, conforme figura abaixo:
+3.3. Realize a operação de cadastro:
+Clique em “Executar Consulta”, e lista de usuários criadas será mostrado.
+Clique em “Novo”, conforme figura abaixo.
+3.4. Defina os seguintes campos:
+Informe os campos, conforme exemplo na figura abaixo:
+NOME DO CAMPO
+DADOS A PREENCHER
+Nome
+Nome completo do usuário
+Usuário
+Nome de acesso que possibilita entrar no sistema
+E-Mail
+E-mail a partir do qual o usuário poderá receber mensagens do sistema.
+Também é utilizado em casos de esquecimento de senha, para enviar uma senha provisória ao usuário.
+Atributos
+Senha nunca expira: A senha cadastrada para o usuário é definitiva e não precisará ser trocada após um determinado período de tempo, cuja quantidade é estipulada por um usuário administrador do sistema na Configuração de Segurança. Esta opção é dependente do atributo "Não pode alterar senha", ou seja, se um estiver selecionado é necessário marcar o outro também.
+Altera senha no próximo logon: Força o usuário a trocar sua senha na próxima tentativa de Logon no sistema. É uma funcionalidade padrão no sistema, isto é, para todo usuário recentemente cadastrado, haverá necessidade de alteração de senha no primeiro Logon. Este campo não pode ser marcado se o campo "Não pode alterar senha" estiver ativo.
+Não pode alterar senha: Se ativado, a alteração de senha pelo usuário não será permitida. Ou seja, o usuário não poderá utilizar a opção “Alterar Senha” encontrada na tela de Logon do sistema. Esta opção é dependente do atributo "Senha nunca expira", ou seja, se um estiver selecionado é necessário marcar o outro também.
+Acesso simultâneo: O usuário pode conectar-se ao sistema em diferentes máquinas ao mesmo tempo.
+Status
+Indica a situação do usuário:
+- Se a opção Inativa estiver marcada: ele não possui mais acesso ao sistema, ou seja, o usuário encontra-se bloqueado.
+- Se a opção Ativa estiver marcada: a conta do usuário está ativa e ele pode acessá-la.
+Localidade
+Indica o idioma de acordo com a localidade do usuário.
+Profile de Segurança
+Campo para seleção do perfil de segurança a que o usuário deve ser vinculado. O Perfil de Segurança é vinculado a uma ou mais Role, a qual contém as permissões de acesso às funcionalidades do sistema, isto é, ao conjunto de direitos/ações/restrições a qual o usuário estará associado.
+Tipo do Usuário
+Neste campo é escolhido o Tipo de usuário para o qual são válidas cada definição:
+- Super User: possui todas as permissões dentro do sistema, sem restrições. Quando um usuário do tipo Super User logar no sistema não será realizada nenhuma validação de direito de acesso as funcionalidades.
+- Common User: usuário de acesso ao sistema. Suas possibilidades de uso e restrições dentro do sistema dependem das configurações de perfil que definem seu nível de acesso.
+- Interface User: exclusivamente responsável pela execução das interfaces do sistema.
+
+
+3.5. Salve o Cadastro. Clique em “Salvar”.
+3.6. Redefinir chave de segurança “Salvar” e “Sair”.
+NOME DO CAMPO
+DADOS A PREENCHER
+Usuário
+Nome do usuário para o qual se deseja redefinir a senha.
+Nova Senha
+Campo para inserir um novo código de acesso ao sistema para o usuário. Essa senha deve seguir as regras definidas na Configuração de segurança. Exceto se essa redefinição for feita pelo administrador do sistema.
+Confirmar Senha
+Campo para confirmação da nova senha. Recurso de segurança.
+
+Aconselhamos realizar a mudança de senha inicialmente criada. Acesse o portal com usuário criado e a nova senha. Ao abrir a tela de “alterar Senha” Informe os dados solicitados e clique em salvar. O sistema fará a alteração.
+Conforme política de senhas da companhia, a mesma deve possuir 08 caracteres sendo obrigatório:
+• Letras maiúsculas;
+• Letras minúsculas;
+• Números;
+• Caracteres especiais.
+4. Anexos
+· Não há anexos.

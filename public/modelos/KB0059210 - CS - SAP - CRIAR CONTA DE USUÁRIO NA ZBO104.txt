@@ -1,0 +1,36 @@
+IT- INSTRUÇÃO DE TRABALHO
+CS - SAP - CRIAR CONTA DE USUÁRIO NO SAP
+
+Introdução / Pré-requisitos para execução da IT
+Esta instrução de trabalho visa orientar o analista/assistente das áreas: Central de Serviços, e Operação, a criar uma conta de usuário de sistema no cadastro único de usuários do SAP.
+1.1 Pré-requisitos:
+a) Saber o número da Identidade do usuário, ou número do CPF;
+b) Possuir os dados da conta a ser criada;
+c) Acesso a transação ZBO104 e ao sistema específico.
+
+ Revisão Semestral de Acessos
+Regularmente os acessos ao Sistema deverão ser revisados pelo Gestor do time de GQ-Digital.
+A lista de acessos ativos no sistema será gerada pelo time de Digital - Acessos
+A lista deve ser respondida pelo Gestor de Negócio validando a lista ativa ou informando quais inativações deverão ser realizadas
+O time de Digital - Acessos registrará as alterações a partir de chamados no Sistema de ITSM de Digital em nome do Gestor de GQ-Digital.
+O time de Digital - Acessos executará a atualização e finalizará o chamado com status de resolvido.
+
+Referências
+Não há referências.
+Descrição das Atividades
+Passo 01: Abra o SAP Logon e clique duas vezes no ambiente “02) A EMPRESA X ERP Produção
+Passo 02: Digite a transação ZBO104 e tecle Enter.
+Passo 03: Digite a identidade do colaborador e clique no botão executar .
+Observação: Para consultar o colaborador pelo nome ou CPF, clique no matchcode , Informe o nome ou CPF do colaborador e clique em “Avançar” :
+Passo 04: Para criar uma nova conta de sistema para a identidade, clique no botão novo ou tecle F5.
+Passo 05: Clique no mechcode do campo ID Sistema e informe o sistema, depois clique no campo Login do usuário e informe o login do usuário no sistema em questão. Após preencher todos os campos, clique em salvar .
+Observação: Ao salvar o cadastro do usuário na conta de sistema AD, clique em salvar:
+Será aberta uma pop-up:
+Ao clicar em “Não”, apresentará pop-up do Passo 06.
+Ao clicar em “Sim”, apresentará pop-up abaixo para confirmação e validação do e-mail. Para prosseguir com cadastro, clique em “Avançar” ou tecle “Enter” :
+Observação: O campo “E-mail do usuário” é liberado para edição.
+Passo 06: Clique no botão finalizar .
+Passo 07: Clique no botão voltar para visualizar a conta de sistema criada para o colaborador.
+Anexos
+Não há anexos.
+

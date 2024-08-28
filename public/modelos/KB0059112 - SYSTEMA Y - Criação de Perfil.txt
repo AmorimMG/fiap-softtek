@@ -1,0 +1,44 @@
+INSTRUÇÃO DE TRABALHO (IT) SYSTEMA Y  - Criação de Perfil
+
+
+1. Introdução / Pré-requisitos para execução da IT
+Este documento estabelece o procedimento que os analistas de acessos deverão seguir para tratativa da solicitação de criação de perfil no SISTEMA Y
+
+1.1 Pré-requisitos
+a) Nome do novo grupo;
+b) Planilha de acesso preenchida;
+c) Informar os colaboradores que terão acesso ao novo grupo;
+d) Chamado deve ser aberto ou possuir o aval do coordenador da área:
+· user@xxxxxxxxx.com.br
+
+ Revisão Semestral de Acessos
+Regularmente os acessos ao SISTEMA Y deverão ser revisados pelo Gestor do time de GQ-Digital.
+A lista de acessos ativos no SISTEMA Y será gerada pelo time de Digital - Acessos
+A lista deve ser respondida pelo Gestor de Negócio validando a lista ativa ou informando quais inativações deverão ser realizadas
+O time de Digital - Acessos registrará as alterações a partir de chamados no SISTEMA Y de ITSM de Digital em nome do Gestor de GQ-Digital.
+O time de Digital - Acessos executará a atualização e finalizará o chamado com status de resolvido.
+
+2. Referências
+Não há referências.
+3. Descrição das Atividades
+Para criar perfil de um usuário deve-se acessar o SISTEMA Y pelo seguinte endereço: https://xxxxxx
+
+3.1. Após digitar o endereço acima no browser do seu navegador aparecerá a imagem abaixo, onde será necessário inserir o seu login e a senha.
+
+Observação: O acesso ao SISTEMA Y somente é possível no navegador Internet Explorer.
+
+3.2. Para adicionar um novo Grupo:
+
+1. Clique na Aba Segurança:
+2. Utilizando o Assistente, clique em Grupos de Usuário:
+3. A Home de Grupos de usuário será apresentada:
+4. Selecione no assistente a opção criar grupo de usuário:
+5. Digite nome do Grupo, informado no chamado, no campo “Nome do Grupo”:
+6. No campo “Não Relacionados” selecione os usuários que terão acesso a esse grupo, transfira-os para o campo “Relacionados”, através do botão, e clique em “Salvar e Gerenciar Permissões”:
+7. Atribua as permissões no novo grupo e clique em “Salvar”.
+Observação: O SISTEMA Y não permite a criação de grupos de usuários com nome já existentes.
+
+3.3 Classificação: Criação de Perfil no SISTEMA Y
+
+Anexos
+

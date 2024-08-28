@@ -1,0 +1,60 @@
+INSTRUÇÃO DE TRABALHO (IT)
+IT Sistema SISTEMA Y
+
+
+Introdução / Pré-requisitos para execução da IT
+Este documento foi preparado para orientar a Gestão de Acessos – TI Aplicações quanto ao cadastramento de usuários no SYSTEMA Y utilizado pela equipe do Financeiro.
+Link de acesso: https://xxxxxxxxxxxx
+ Revisão Semestral de Acessos
+Regularmente os acessos ao Sistema deverão ser revisados pelo Gestor do time de GQ-Digital.
+A lista de acessos ativos no sistema será gerada pelo time de Digital - Acessos
+A lista deve ser respondida pelo Gestor de Negócio validando a lista ativa ou informando quais inativações deverão ser realizadas
+O time de Digital - Acessos registrará as alterações a partir de chamados no Sistema de ITSM de Digital em nome do Gestor de GQ-Digital.
+O time de Digital - Acessos executará a atualização e finalizará o chamado com status de resolvido.
+
+Referências
+Não há referências.
+Descrição das Atividades
+Segue abaixo, a descrição do procedimento para criação / alteração de usuário no sistema.
+3.1 – Cadastro de usuários.
+Requisitos:
+a) Nome completo do usuário;
+b) CPF;
+c) RG;
+d) Login de rede do usuário;
+e) Perfil a ser atribuído ou usuário cópia;
+f) Ambiente que deseja acesso (DEV, QA e PRD);
+g) Aval do Gerente (para acesso ao ambiente PRD);
+h) Validação de Controles Internos.
+
+Abra o navegador e digite o endereço HTTPS://XXXXXXX.
+A página de login aparecerá, digite o nome de usuário e senha de um perfil Gestão de acessos e entre no sistema. Clicar em novo usuário.
+Preencher com os dados solicitados, clicar em próximo.
+Determinar o perfil a ser utilizado, lembrando que o perfil beneficiário não poderá ser concedido pela equipe de acessos, clicar em próximo.
+Na próxima tela preencher com os dados solicitados e clicar em finalizar o cadastro clicando no botão Cadastrar Usuários. Após aparecerá a mensagem abaixo, confirmando a finalização do cadastro. · Retornar para o usuário informando que o cadastro foi finalizado e informar a senha provisória.
+
+3.2 – Alteração de Cadastro de usuários.
+Requisitos:
+a) Nome completo do usuário;
+b) Login de rede do usuário;
+c) Ambiente que deseja acesso (DEV, QA e PRD);
+d) Aval do Gerente (para acesso ao ambiente PRD).
+
+Abra o navegador e digite o endereço HTTPS://XXXX
+A página de login aparecerá, digite o nome de usuário e senha de um perfil Gestão de acessos e entre no sistema. Clicar em atualizar informação.
+
+Selecionar o tipo de usuário.
+
+
+
+
+Clicar no botão Alterar os campos solicitados. Apenas os campos são disponibilizados para alteração.
+· Nome;
+· RG;
+· CPF;
+· Empresa;
+· Cargo;
+· E-mail;
+· Órgão administrativo. Após isso clicar no botão confirmar. A alteração será finalizada.
+Anexos
+Não há anexos.

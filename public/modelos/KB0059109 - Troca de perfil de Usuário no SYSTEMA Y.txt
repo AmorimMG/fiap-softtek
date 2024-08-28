@@ -1,0 +1,59 @@
+INSTRUÇÃO DE TRABALHO (IT) Troca de perfil de Usuário no Sistema Dynamics - Voluntários
+
+
+1. Introdução / Pré-requisitos para execução da IT
+Esta instrução de trabalho descreve a atividade de Troca de perfil de Usuário no SISTEMA Y.
+1.1 Pré-requisitos:
+· Ambiente que usuário deseja alterar acesso (DEV, QA, PROD):
+· Nome completo do usuário que terá o perfil alterado;
+· Login de rede do usuário que terá o perfil alterado;
+· Nome do perfil que deverá ser adicionado ao usuário;
+· Aval da área do A EMPRESA X (pesquisas com consumidor). Responsáveis:
+· XXXX (XXXX@XXXX.COM)
+ Revisão Semestral de Acessos
+Regularmente os acessos ao Sistemas deverão ser revisados pelo Gestor do time de GQ-Digital.
+A lista de acessos ativos no sistema será gerada pelo time de Digital - Acessos
+A lista deve ser respondida pelo Gestor de Negócio validando a lista ativa ou informando quais inativações deverão ser realizadas
+O time de Digital - Acessos registrará as alterações a partir de chamados no Sistema de ITSM de Digital em nome do Gestor de GQ-Digital.
+O time de Digital - Acessos executará a atualização e finalizará o chamado com status de resolvido.
+
+2. Referências
+· PROCEDIMENTO:
+3. Descrição das Atividades
+Para acessar ao APLICATIVO de Voluntários:
+· Acesse o browser de acordo com o ambiente solicitado:
+· (Desenvolvimento);
+· (Homologação);
+· (Produção).
+
+· Informe o e-mail corporativo e clique em "Avançar".
+
+Execute os seguintes passos:
+
+· Clique no botão > "Configurações" > "Segurança", conforme demonstrado abaixo:
+
+· Clique em "Usuários".
+
+· Pesquise e selecione o usuário desejado. Confira a "Unidade de Negócios".
+
+NOTA: Caso o usuário acesse outros Aplicativos além de “Voluntários”, OBRIGATORIAMENTE este usuário deve ser mantido na Unidade de Negócio “A EMPRESA X”, do contrário não terá acesso aos registros desta unidade de negócio.
+· Para alterar os direitos de Acesso, clique em ‘Gerenciar Funções’ e selecione os itens de acordo com a nova função informada pelo usuário:
+
+· Se função é “Gerente”, selecionar os itens abaixo:
+· [VOL] - Administração
+· [VOL] - APP
+· [VOL] - Survey
+· Se função é “Coordenador”, selecionar os itens abaixo:
+· [VOL] - Administração
+· [VOL] - APP
+· [VOL] - Survey
+· Se outras funções, selecionar os itens abaixo:
+· [VOL] - Perfil A
+· [VOL] - APP
+
+· Mantenha o usuário selecionado e clique em "Mais Comandos" > "Abrir Caixa de Correio" para sua configuração.
+· Configure os campos de "Método de Sincronização" conforme abaixo e clique em "Salvar" .
+
+
+Anexos
+Não há anexos.

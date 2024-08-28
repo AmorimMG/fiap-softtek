@@ -1,0 +1,232 @@
+INSTRUÇÃO DE TRABALHO (IT)
+SISTEMA Y - Alteração de Perfil
+
+
+1.Introdução / Pré-requisitos para execução da IT
+Este documento estabelece o procedimento que os analistas de acessos deverão seguir para tratativa da solicitação de alteração de perfil no sistema RAS.
+
+
+
+      Pré-requisito:
+Grupo a ser alterado;
+Tipo de alteração
+Chamado deve ser aberto ou possuir o aval do coordenador da área:
+- XXXX
+- XXXX
+  Revisão Semestral de Acessos
+Regularmente os acessos ao Sistema deverão ser revisados pelo Gestor do time de GQ-Digital.
+A lista de acessos ativos no sistema será gerada pelo time de Digital - Acessos
+A lista deve ser respondida pelo Gestor de Negócio validando a lista ativa ou informando quais inativações deverão ser realizadas
+O time de Digital - Acessos registrará as alterações a partir de chamados no Sistema de ITSM de Digital em nome do Gestor de GQ-Digital.
+O time de Digital - Acessos executará a atualização e finalizará o chamado com status de resolvido.
+
+
+2. Referência
+Não há referências.
+
+
+3. Descrição das atividades
+Para alterar perfil de um usuário deve-se acessar o sistema pelo seguinte endereço:
+3.1. Após digitar o endereço acima no browser do seu navegador aparecerá a imagem abaixo, onde será necessário inserir o seu login e a senha.
+
+
+
+Observação: O acesso ao sistema somente é possível no navegador Internet Explorer.
+
+3.2 Para Gerenciar as Permissões do grupo:
+Acesse a aba Segurança, clique em “Grupos de Usuários” e no POP de ações do ítem selecione a opção “Gerenciar Permissões”:
+
+
+
+
+2. Defina as Permissões do grupo por meio dos lists apresentados na interface, cada list representa o acesso a um determinado recurso/funcionalidade do sistema.
+
+
+As funcionalidades e seus respectivos níveis de acesso são detalhados na Tabela 10.
+
+3. Após definir todas as Permissões desejadas:
+a) Clique em Salvar para gravar as Permissões definidas no Grupo em uso;
+b) Clique em Cancelar para desistir da operação sem salvar nenhum dado.
+
+A tabela 10 lista as Permissões existentes no SISTEMA Ye suas respectivas opções de acesso.
+
+Permissão
+Opções
+Petição PPM
+Gerenciar: Permite Atualização.
+Nenhuma: Não permite Gerenciamento.
+Petição de Preço
+Gerenciar: Permite Atualização.
+Nenhuma: Não permite Gerenciamento.
+CheckList
+Gerenciar: Permite a inclusão, exclusão, alteração e visuazalição de Modelos de Petição ou Checklists.
+Visualizar: Acesso apenas para visualização de Checklists.
+Nenhuma: Aba “Checklist” não é exibida.
+Processos
+Gerenciar: Permite a inclusão, exclusão, alteração e visuazalição de Processos e de todos os conceitos relacionados, como Petições e Pendências.
+Visualizar: Acesso apenas para visualização de informações de Processos.
+Nenhuma: Aba “Processo” não é exibida.
+Medicamentos
+Gerenciar: Permite a inclusão, exclusão, alteração e visuazalição de Medicamentos e de todos os conceitos relacionados, como Apresentações e Bulas.
+Visualizar: Acesso apenas para visualização de informações de Medicamentos.
+Nenhuma: Aba “Medicamentos” não é exibida.
+Cosméticos
+Gerenciar: Permite a inclusão, exclusão, alteração e visuazalição de Cosméticos e de todos os conceitos relacionados, como Apresentações e Fórmulas.
+Visualizar: Acesso apenas para visualização de informações de Cosméticos.
+Nenhuma: Aba “Cosméticos” não é exibida.
+Alimentos
+Gerenciar: Permite a inclusão, exclusão, alteração e visuazalição de Alimentos e de todos os conceitos relacionados, como Documentos e Fórmulas.
+Visualizar: Acesso apenas para visualização de informações de Alimentos.
+Nenhuma: Aba “Alimentos” não é exibida.
+Correlatos
+Gerenciar: Permite a inclusão, exclusão, alteração e visuazalição de Correlatos.
+Visualizar: Acesso apenas para visualização de informações de Correlatos.
+Nenhuma: Aba “Correlatos” não é exibida.
+Fórmulas
+Gerenciar: Permite a inclusão, exclusão, alteração e visuazalição de Fórmulas e seus Componentes. Aplica-se para qualquer tipo de Produto.
+Visualizar: Acesso apenas para visualização de informações de Fórmulas.
+Nenhuma: Não são exibidos os links de Gerenciamento de Fórmulas nos Assistentes e Pop de Ações, bloqueando o acesso a qualquer tipo de informação sobre Fórmulas cadastradas no RAS.
+Info. Quantidade da
+Fórmula
+Não Visualizar Quantidade de Fórmula: Exibe Fórmulas sem mostrar, entretanto, as quantidades de cada substância que a compõe.
+Visualizar Quantidade de Fórmula: Exibe Fórmulas incluindo as quantidades de cada substância que a compõe.
+Fábricas
+Gerenciar: Permite a inclusão, exclusão, alteração e visuazalição de Fábricas.
+Visualizar: Acesso apenas para visualização de informações de Fábricas.
+Nenhuma: Seção Fábricas da aba parceiros e opções para gerenciamento de Fábricas em POPs de Ação e Assistentes não são exibidas.
+Centros de Estudos
+Gerenciar: Permite a inclusão, exclusão, alteração e visuazalição de Centros de Estudos.
+Visualizar: Acesso apenas para visualização de informações de Centros de Estudos.
+Nenhuma: Seção Centros de Estudos da aba parceiros e opções para gerenciamento de Centros de Estudos em POPs de Ação e Assistentes não são exibidas.
+Gerencias
+Gerenciar: Permite a inclusão, exclusão, alteração e visuazalição de Gerencias.
+Visualizar: Acesso apenas para visualização de informações de Gerencias.
+Nenhuma: Seção Gerencia da aba parceiros e opções para gerenciamento de Gerencia em POPs de Ação e Assistentes não são exibidas.
+Documentos
+Gerenciar: Permite a criação, associação, edição e remoção de Documentos.
+Visualizar: Permite apenas a visualização dos Documentos existentes no repositório do RAS.
+Nenhuma: Aba “Documentos” não é exibida, assim como as tabelas de Documentos associados nos mais variados Conceitos do Sistema. Também não há acesso à opção de Criar e Associar Documentos nos Assistentes. Vale ressaltar que Bulas XML são Documentos e, portanto sujeitas ao mesmo tipo de controle.
+Documentos Confidenciais
+Visualizar Documentos Confidenciais: Permite visualizar documentos identificados como confidenciais.
+Não Visualizar Documentos Confidenciais: Não Permite visualizar documentos identificados como confidenciais.
+Versões do Documento
+Visualizar Apenas Última Versão Final: Mostra apenas a versão final mais recente de um Documento. Ao editar um documento (caso Usuário tenha permissão para isso), não será exibida a tabela com o histórico do Documento sendo editado.
+Visualizar todas as Versões de Documentos: Mostra sempre a versão mais recente de um Documento, seja ela final ou não. Ao editar um documento (caso Usuário tenha permissão para isso), será exibida a tabela com o histórico de todas as versões do Documento sendo editado.
+Configuração
+Gerenciar: Permite a inclusão, exclusão, alteração e visuazalição de todos os Cadastros Básicos do RAS.
+Visualizar: Acesso apenas para visualização dos dados dos Cadastros Básicos.
+Nenhuma: Aba “Configuração” não é exibida.
+Administração
+Gerenciar: Permite a inclusão, exclusão, alteração e visuazalição de Usuários, Grupos e Permissões.
+Visualizar: Acesso apenas para visualização dos dados de controle de acesso do RAS.
+Nenhuma: Aba “Segurança” não é exibida
+Pendências
+Gerenciar Próprias: Usuário visualiza e gerencia apenas as suas próprias Pendências (tanto Recebidas como Enviadas).
+Gerenciar de Todos: Além de visualizar e gerenciar suas próprias Pendências, é possível acessar todas as Pendências gerenciadas pelo RAS, independentemente de quem as criou ou com quem estão.
+Trilha de Auditoria
+Visualizar Trilha de Auditoria: Permite que o Usuário veja a Trilha de Auditoria de qualquer Conceito do RAS.
+Não Visualizar Trilha de Auditoria: Opção “Trilha de Auditoria” não estará disponível nos POPs e ação do RAS.
+Relatório de Petições
+Nenhuma: Box do Relatório não é exibido ao Clicar na Aba “relatórios”.
+Relatório Simples: Acesso apenas para Geração de Relatórios Tabulares e sem acesso aos campos com indicadores.
+Relatório Completo: Acesso a todos os tipos de Relatório.
+Relatório de Produtos
+Nenhuma: Box do Relatório não é exibido ao Clicar na Aba “relatórios”.
+Relatório Simples: Acesso apenas para Geração de Relatórios Tabulares e sem acesso aos campos com indicadores.
+Relatório Completo: Acesso a todos os tipos de Relatório.
+Relatório de Apresentações
+Nenhuma: Box do Relatório não é exibido ao Clicar na Aba
+“relatórios”.
+Relatório Simples: Acesso apenas para Geração de Relatórios Tabulares e sem acesso aos campos com indicadores.
+Relatório Completo: Acesso a todos os tipos de Relatório.
+Relatório de Processos
+Nenhuma: Box do Relatório não é exibido ao Clicar na Aba
+“relatórios”.
+Relatório Simples: Acesso apenas para Geração de Relatórios
+Tabulares e sem acesso aos campos com indicadores.
+Relatório Completo: Acesso a todos os tipos de Relatório.
+Relatório de Pendências
+Nenhuma: Box do Relatório não é exibido ao Clicar na Aba
+“relatórios”.
+Relatório Simples: Acesso apenas para Geração de Relatórios
+Tabulares e sem acesso aos campos com indicadores.
+Relatório Completo: Acesso a todos os tipos de Relatório.
+Relatório de Estudos
+Nenhuma: Box do Relatório não é exibido ao Clicar na Aba
+“relatórios”.
+Visualizar: Permite a geração de Relatórios de Estudos.
+CRC
+Gerenciar: Permite a inclusão, exclusão, alteração e visuazalição de CRC.
+Visualizar: Acesso apenas para visualização de informações de CRC.
+Nenhuma: Aba “CRC” não é exibida.
+Relatório CRC
+Nenhuma: Box do Relatório não é exibido ao Clicar na Aba
+“relatórios”.
+Relatório Simples: Acesso apenas para Geração de Relatórios
+Tabulares e sem acesso aos campos com indicadores.
+Relatório Completo: Acesso a todos os tipos de Relatório.
+Acessórios
+Gerenciar: Permite a inclusão, exclusão, alteração e visualização.
+Visualizar: Acesso apenas para visualização dos dados.
+Nenhuma: Sub Aba não é exibida.
+HMP
+Gerenciar: Permite a inclusão, exclusão, alteração e visualização.
+Visualizar: Acesso apenas para visualização dos dados.
+Nenhuma: Sub Aba não é exibida.
+Datas Planejadas da Petição
+Gerenciar: Permite atualizar o campo
+Não Gerenciar: Não Permite atualizar o campo. Esta opção sobrepõe a configuração “Gerenciar” especificas da data. Por exemplo, se esta configuração estiver como “não gerenciar” e a configuração da data de recebimento do último documento estiver como Gerenciar, somente a data real estará disponível para informação.
+Data Recebimento Último Documento (Petição)
+Gerenciar: Permite atualizar o campo planejado e real e exibir acuidade no relatório de petição.
+Não Gerenciar: Não Permite atualizar o campo. Se a opção for não gerenciar, as datas planejada e real não serão exibidas, sobrepondo a configuração “Datas Planejadas da Petição”.
+Data Solicitação Documentação
+(Petição)
+Gerenciar: Permite atualizar o campo planejado e real e exibir acuidade no relatório de petição.
+Não Gerenciar: Não Permite atualizar o campo. Se a opção for não gerenciar, as datas planejada e real não serão exibidas, sobrepondo a configuração “Datas Planejadas da Petição”.
+Data Recebimento Documentação (Petição)
+Gerenciar: Permite atualizar o campo e exibir acuidade no relatório de petição.
+Não Gerenciar: Não Permite atualizar o campo. Se a opção for não gerenciar, as datas planejada e real não serão exibidas, sobrepondo a configuração “Datas Planejadas da Petição”.
+Data de Implementação
+(Petição)
+Gerenciar: Permite atualizar o campo.
+Não Gerenciar: Não Permite atualizar o campo.
+Política de Senha
+Gerenciar: Permite atualizar as politicas de Senha.
+Não gerenciar: Não permite atualizar as politicas.
+Relatório de Fábricas
+Nenhuma: Box do Relatório não é exibido ao Clicar na Aba
+“relatórios”.
+Relatório Simples: Acesso apenas para Geração de Relatórios
+Tabulares e sem acesso aos campos com indicadores.
+Relatório Completo: Acesso a todos os campos e tipos de Relatório.
+Datas de Registro do
+Produto
+Gerenciar: Permite atualizar os campos "data do primeiro registro" e "vencimento do registro". Permite atualizar o alerta e dados do alerta.
+Não Gerenciar: Não Permite atualizar os campos "data do primeiro registro" e "vencimento do registro", Permite visualizar o ícone editar alerta e visualizar os dados do alerta.
+Insumo
+Gerenciar: Permite a inclusão, exclusão, alteração e visuazalição de Insumos e de todos os conceitos relacionados, como Documentos e Apresentações.
+Visualizar: Acesso apenas para visualização de informações de Insumos.
+Nenhuma: Aba “Insumos” não é exibida.
+Busca e Atualização Simples de Protocolo
+Sim: Permitir acesso ao SISTEMA Ypara usuários com permissão restrita a protocolos, somente na ação “Atualizar” alguns campos.
+Não: Funcionalidade “Acesso Restrito a Protocolos” não tratada no sistema.
+
+
+Observação 1: Os campos Controlados possuem as opções Nenhuma, Visualizar, Gerenciar com Controle e Gerenciar sem Controle. A opção de Gerenciar com Controle permite que o sistema apresente a tela de registro de histórico de alteração do campo, porém se o nível de acesso do campo controlado for Gerenciar sem Controle o campo não registrará as ações ocorridas no relatório de revisão de trilha de auditoria.
+
+Observação 2: Campos obrigatórios não possuem o nível de acesso nenhum.
+
+3.3. Classificação:
+
+Alteração de Perfil no SYSTEMA Y
+
+
+4. Anexo
+
+
+
+
+
+
+
+

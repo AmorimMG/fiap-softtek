@@ -1,0 +1,47 @@
+
+INSTRUÇÃO DE TRABALHO (IT)
+SYSTEMA Y - Ativar, Inativar Acesso e transferir licenças
+
+Introdução / Pré-requisitos para execução da IT
+Esta instrução de trabalho orienta o passo a passo para ativar ou inativar acesso de usuário no SISTEMA Y
+
+1.1 Pré-requisitos para Ativação
+a) Nome do colaborador;
+b) Usuário do SISTEMA Y;
+c) Solicitar aval do keyuser xxxxxx ou xxxxxxxxx;
+ Revisão Semestral de Acessos
+Regularmente os acessos ao Sistema deverão ser revisados pelo Gestor do time de GQ-Digital.
+A lista de acessos ativos no sistema será gerada pelo time de Digital - Acessos
+A lista deve ser respondida pelo Gestor de Negócio validando a lista ativa ou informando quais inativações deverão ser realizadas
+O time de Digital - Acessos registrará as alterações a partir de chamados no Sistema de ITSM de Digital em nome do Gestor de GQ-Digital.
+O time de Digital - Acessos executará a atualização e finalizará o chamado com status de resolvido.
+
+1.2 Pré-requisitos para Inativação
+a) Nome do colaborador;
+b) Usuário do SISTEMA Y;
+c) Motivo da inativação do usuário;
+d) Solicitar aval do keyuser XXXXXXXXX ou XXXXXXXXXX;
+e) O RH ou gerente imediato (para colaborador terceiro) poderá solicitar a inativação do usuário sem necessidade do aval anexado.
+1.3 Pré-requisitos para Inativação com transferência de Licença
+a) Nome do colaborador;
+b) Usuário do SISTEMA Y que terá a licença removida;
+c) Usuário do SISTEMA Y que terá a licença atribuída;
+d) Solicitar aval do keyuser XXXXXX ou XXXXXXXXX;
+Referências
+Não há referências.
+
+Descrição das Atividades
+3.1 Ativar ou inativar acesso de usuário
+Para esse procedimento, o usuário está criado. Portanto, o mesmo pode ser ativado ou inativado seguindo os passos abaixo.
+Ao acessar o SISTEMA Y, selecione a opção Manage Users:
+O sistema abrirá a tela de help desk, acessar com usuário e senha:
+Será aberta a página de gerenciamento de usuário:
+Selecione o usuário por uma das seguintes formas:
+1. Digite o usuário do SISTEMA Y e clique em “Apply Filter”;
+2. Selecione o usuário na tela de usuário:
+
+3. Clicar em “Edit User”:O parâmetro que define um usuário como ativo ou não é o parâmetro Enabled¸ caso o mesmo esteja marcado o usuário está ativo, caso esteja desmarcado o usuário está inativo.
+
+Anexos
+Não há anexos.
+

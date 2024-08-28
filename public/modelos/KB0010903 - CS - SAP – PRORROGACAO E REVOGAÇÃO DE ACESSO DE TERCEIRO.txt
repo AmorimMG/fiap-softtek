@@ -1,0 +1,108 @@
+Instrução de Trabalho
+ CS - SAP – PRORROGAÇÃO E REVOGAÇÃO DE ACESSO DE TERCEIRO
+
+
+Introdução / Pré-requisitos para execução da IT
+Esta instrução de trabalho visa orientar o assistente da Central de Serviços na prorrogação e revogação de acessos de terceiros no sistema SAP.
+Pré-requisitos:
+
+
+Acesso à caixa de e-mail “Suporte”;
+Acesso às transações: ZBO103, ZBO104 e ZBO127;
+Para Prorrogação de Acesso de Terceiro:
+
+
+Validação/resposta do gestor (GER/DIR) para prorrogação do acesso;
+Prazo máximo para prorrogação de acesso é de 90 dias (o SAP não aceita mais do que 90 dias)
+
+
+Para Revogação de Acesso de Terceiro
+
+
+Validação/resposta do gestor para revogação programada ou imediata de acesso
+ Revisão Semestral de Acessos
+Regularmente os acessos ao Sistema deverão ser revisados pelo Gestor do time de GQ-Digital.
+A lista de acessos ativos no sistema será gerada pelo time de Digital - Acessos
+A lista deve ser respondida pelo Gestor de Negócio validando a lista ativa ou informando quais inativações deverão ser realizadas
+O time de Digital - Acessos registrará as alterações a partir de chamados no Sistema de ITSM de Digital em nome do Gestor de GQ-Digital.
+O time de Digital - Acessos executará a atualização e finalizará o chamado com status de resolvido.
+
+Referências
+
+n/a
+
+Descrição das Atividades
+
+O sistema SAP envia automaticamente e-mail de “Acessos de Terceiros a Vencer – Ambiente ECP” para o gestor responsável quando faltam 05 dias para vencimento dos acessos.
+Por meio deste, os acessos são prorrogados ou revogados.
+
+
+Quando no ato de revogar/prorrogar acessos, o time CS tem visibilidade do COUPA, SAP PRD, QAS e DEV.
+
+Quando for aberto um chamado para o atendimento do time de ACESSOS SAP, deve-se abrir 1 chamado para qualquer uma ou para todas as frentes SAP como COUPA, SAP PRD, QAS e ou DEV.
+I- PRORROGAÇÃO DE ACESSO DE TERCEIRO
+Os acessos são prorrogados quando, no período das 05 notificações diárias, via e-mail, o gestor solicita a renovação dos acessos.
+Caso gestor autorize a prorrogação de acesso, siga os passos abaixo:
+Caso seja o mesmo gestor, prossiga com o passo 3.1.2.
+Caso sejam gestores diferentes, faça:
+
+
+Abra chamado relacionado para Correção de dados cadastrais
+Realize a alteração do gestor imediato responsável pela resposta do e-mail.
+Prossiga o atendimento da solicitação conforme passo 3.1.2
+
+
+Anexe o e-mail de resposta do gestor;
+Classifique o chamado: - Prorrogação/Revogação de Acesso de Terceiro;
+EQUIPE: N1 - OUTROS
+Na aba Especificação preencha no atributo “Nome do Serviço” o valor “Prorrogação”.
+Siga os passos abaixo para tratativa da solicitação:
+  I-ZBO103 – Identidades
+Acesse a transação ZBO103 e realize a prorrogação do acesso do usuário conforme informação do gestor.
+Clique em “Alterar” através do botão
+
+Preencha o Nr. Chamado;
+Informe o “Motivo” como: Prorrogação de Acessos;
+Informe a nova “Data de Desligamento” e clique em “Salvar
+
+                      II-ZBO104 – Administração de Contas de Sistema
+A CENTRAL DE SERVIÇOS executa prorrogação apenas de REDE
+O time N1-ACESSOS SAP realiza a prorrogação do SAP-SAP ECC CORPORATIVO (SOLMAN/GRC)
+
+      II-REVOGAÇÃO DE ACESSO DE TERCEIRO
+Há três situações de revogação de acesso:
+O gestor responde o e-mail solicitando a revogação do acesso de imediato.
+O gestor responde o e-mail solicitando a revogação do acesso programada para a data fim informada.
+Caso não haja retorno do gestor, neste período, o sistema SAP JOB revoga os acessos de forma automática para os demais sistemas que usuário possui cadastrado na ZBO104.
+Para Inativar apenas 1 sistema/ambiente da ZBO104 e não o user de rede AD, deve ser feito manualmente e não usar ZBO127.
+A ZBO127 inativa automaticamente o SAP e o AD
+Caso o SAP não seja inativado automaticamente, deve realizar manualmente na ZBO104
+Toda revogação deve possuir a evidência da ZBO104 mostrando Rede e SAP inativos
+Não revogar RDV/Paytrack, Docnix, Dynamics e etc, quando a ZBO127 é realizada, o JOB automaticamente abre chamados e direciona para os times que os revogarão.
+Para registrar o motivo da revogação de acessos, realize os seguintes passos:
+Realize a comparação do gestor que respondeu o e-mail com o gestor cadastrado na ZBO103 e siga as orientações abaixo:
+Caso seja o mesmo gestor, prossiga com o passo 3.2.2
+Caso sejam gestores diferentes faça:
+Abra chamado relacionado para Correção de dados cadastrais
+Realize a alteração do gestor imediato responsável pela resposta do e-mail.
+Prossiga o atendimento da solicitação conforme passo 3.2.2
+
+
+
+
+Anexe o e-mail do SAP JOB;
+EQUIPE: N1- OUTROS
+Classifique o chamado: - Prorrogação/Revogação de Acesso de Terceiro;
+Na aba Especificação preencha no atributo “Nome do Serviço” o valor “Revogação”.
+Para o item "b", selecione a flag “Revogação programada”, na ZBO103, para bloquear o envio de e-mail do SAP JOB para o gestor até a data fim do contrato.
+Acesse a transação ZBO103 e clique em “Alterar” através do botão
+Selecione a flag “Revogação Programada”;
+Clique em “Salvar”  .
+
+Para os itens "b" e "c", a revogação dos acessos ocorrerá automaticamente, um dia após a data de desligamento.
+Para esclarecimento de dúvidas quanto à operação da ZBO127, acessar a IT- ZBO127_Inativação de usuário pelo RH.
+Sistemas revogados automaticamente pelo JOB da ZBO127 IT - ZBO104 _ Ativar e inativar conta de usuário de sistema
+ Anexos
+
+Não há anexo.
+

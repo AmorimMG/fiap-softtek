@@ -1,0 +1,33 @@
+IT - INSTRUÇÃO DE TRABALHO
+CS - SAP - ZBO103 ATUALIZAR DADOS DA BU
+Introdução
+Quando um colaborador DA EMPRESA X entrar em contato comunicado que agora seu e-mail deixará de ser DA EMPRESA X e se tornará DA EMPRESA X ou DA EMPRESA X(por exemplo). O analista N1 deve realizar as orientações descritas nessa IT.
+
+ Revisão Semestral de Acessos
+Regularmente os acessos ao Sistema deverão ser revisados pelo Gestor do time de GQ-Digital.
+A lista de acessos ativos no sistema será gerada pelo time de Digital - Acessos
+A lista deve ser respondida pelo Gestor de Negócio validando a lista ativa ou informando quais inativações deverão ser realizadas
+O time de Digital - Acessos registrará as alterações a partir de chamados no Sistema de ITSM de Digital em nome do Gestor de GQ-Digital.
+O time de Digital - Acessos executará a atualização e finalizará o chamado com status de resolvido.
+
+Referências
+Palavras chaves: domínio, e-mail. ZBO103, AD, mudança no domínio.
+
+Descrição
+N1-Outros em posse dos requisitos, realiza a troca do E-mail na ZBO103, campo E-mail.
+3.1 Inicia a edição
+3.2 edita o campo e-mail
+3.3 Preenche o campo motivo, com o número do chamado e no campo Nr chamado colocar apenas o número da TASK.
+3.4 Após alterado e colocado os dados, precisa gravar como apontado abaixo
+
+3.5 Evidencia a alteração na ZBO103 e AD dos campos de Email (General e Account) no chamado
+Requisito da atividade:
+Aval gerencial
+Motivo:
+De: user@xxxxxxxxx.com.br
+Para: user@yyyyyyyyyy.com.br
+
+Obs: Antes de concluir esse 1 chamado, abra um novo chamado e com as mesmas evidências e aval enviar para Equipe X para que realizem a alteração do novo e-mail no AD e informe o número desse 2° chamado no 1° chamado aberto para o concluir corretamente.
+
+Anexos
+Sem anexos

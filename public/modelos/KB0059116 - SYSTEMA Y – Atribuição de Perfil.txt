@@ -1,0 +1,39 @@
+INSTRUÇÃO DE TRABALHO (IT)
+Espaider – Atribuição de Perfil
+
+1. Introdução / Pré-requisitos para execução da IT
+Este documento estabelece o procedimento que os analistas de acessos deverão seguir para tratativa da solicitação de atribuição de perfil no SISTEMA Y .
+
+1.1 Pré-requisito:
+a) Aval do Gerente.
+b) Perfil que deseja acesso.
+ Revisão Semestral de Acessos
+Regularmente os acessos ao Sistemas deverão ser revisados pelo Gestor do time de GQ-Digital.
+A lista de acessos ativos no sistema será gerada pelo time de Digital - Acessos
+A lista deve ser respondida pelo Gestor de Negócio validando a lista ativa ou informando quais inativações deverão ser realizadas
+O time de Digital - Acessos registrará as alterações a partir de chamados no Sistema de ITSM de Digital em nome do Gestor de GQ-Digital.
+O time de Digital - Acessos executará a atualização e finalizará o chamado com status de resolvido.
+
+2. Referências
+Não há referências.
+3. Descrição das Atividades
+Para atribuir perfil a um usuário deve-se acessar o sistema pelo seguinte endereço: HTTPS://XXXXX
+
+3.1. Após digitar o endereço acima no browser do seu navegador aparecerá a imagem abaixo, onde será necessário inserir o seu usuário e a senha.
+
+Observação: Acesso ao sistema ocorre de forma automática, se utilizado o navegador Internet Explorer. Caso utilize outro navegador, é necessário informar o login e a senha, conforme demonstrado acima.
+
+3.2. Em seguida, clique em “Segurança” e “Usuários” para visualizar os usuários que já possuem cadastro:
+
+
+3.3. Para verificar se o usuário já existe, escolha a opção “Ativo” no campo “Filtros Rápidos”. Em seguida, digite o nome do usuário no campo “Procurar”, tecle “Enter” e selecione com duplo clique:
+
+3.4. Em seguida, clique na aba “Grupos” e clique na seta para adicionar o acesso para o usuário:
+
+Observação: Para os usuários de pessoa física utilizam-se os Módulos “Requisições” e “Papel Requisitante”. Caso seja usuários de pessoa jurídica deve-se utilizar o usuário cópia para identificação dos módulos.
+3.5. Verifique se os módulos selecionados estão em “Funções” e clique em “Salvar e Fechar”:
+
+
+Anexos
+Não há Anexos.
+

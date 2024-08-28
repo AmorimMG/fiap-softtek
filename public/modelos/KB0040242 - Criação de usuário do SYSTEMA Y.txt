@@ -1,0 +1,52 @@
+INSTRUÇÃO DE TRABALHO (IT)
+CRIAÇÃO DE USUÁRIO DO SISTEMA Y
+  1.      Introdução / Pré-requisitos para execução da IT
+Esta Instrução de Trabalho visa orientar na atividade de criação de acesso do usuário no SISTEMA Y.
+  Revisão Semestral de Acessos
+Regularmente os acessos ao Sistema deverão ser revisados pelo Gestor do time de GQ-Digital.
+A lista de acessos ativos no sistema será gerada pelo time de Digital - Acessos
+A lista deve ser respondida pelo Gestor de Negócio validando a lista ativa ou informando quais inativações deverão ser realizadas
+O time de Digital - Acessos registrará as alterações a partir de chamados no Sistema de ITSM de Digital em nome do Gestor de GQ-Digital.
+O time de Digital - Acessos executará a atualização e finalizará o chamado com status de resolvido.
+
+1.1 Pré-requisitos:
+Nome completo do usuário;
+E-mail corporativo do usuário;
+Chamado deve ser aberto com o aval do Gestor da área.
+2.      Referências
+Não há referências.
+3.      Descrição das Atividades
+Para criar um usuário no SISTEMA Y deve-se acessar o sistema pelo ícone de atalho na área de trabalho.
+3.1 Após acessar o sistema aparecerá a imagem abaixo, onde será necessário inserir o seu login e a  senha.
+
+3.2 Para a criação de um novo usuário:
+3.2.1 Clique em “Usuários”
+
+3.2.2 Na tela “Cadastro de Usuários” clique em “Incluir”.
+
+3.2.3 Na tela de “Cadastro de Usuários” digite os dados do novo usuário.
+
+3.2.4 Digite os dados do novo Usuário, definido pelos campos apresentados:
+Campo
+Descrição
+*Login
+Login do usuário
+*Senha
+Senha do usuário
+*Confirmação de senha
+Confirmar senha do usuário
+*Nome
+Nome completo do usuário
+*E-mail
+E-mail completo do usuário
+*Perfil
+Marque a opção “Operador-Operador”, caso o usuário seja administrador marque “Administrador-Administrador”.
+*Bloqueado
+Marque a opção “Não”.
+
+* Campos Obrigatórios
+
+3.2.5 Clique em “Salvar” para gravar os dados do Usuário sendo criado.
+
+4.      Anexos
+Não há anexos.

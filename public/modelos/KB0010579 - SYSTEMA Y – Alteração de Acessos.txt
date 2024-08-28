@@ -1,0 +1,111 @@
+INSTRUÇÃO DE TRABALHO (IT)
+SISTEMA Y– Alteração de Acessos
+
+
+
+Introdução / Pré-requisitos para execução da IT
+Este documento estabelece o procedimento que os analistas de acessos deverão seguir para alterar o acesso do usuário no sistema SISTEMA Y.
+Pré-requisitos:
+Acesso administrativo ao SISTEMA Y;
+Se a atribuição é para o usuário ou para o grupo (se for para o grupo, informar o grupo).
+Grupos: Contabilidade, Fiscal Estadual, Gestor e TI.
+O tipo de atribuição (módulo).
+A Empresa e Filial que terá acesso.
+Anexar o print da tela que deseja a alteração;
+O Aval do Gerente de Compliance Fiscal:
+XXXXX
+ Revisão Semestral de Acessos
+Regularmente os acessos ao Sistema deverão ser revisados pelo Gestor do time de GQ-Digital.
+A lista de acessos ativos no sistema será gerada pelo time de Digital - Acessos
+A lista deve ser respondida pelo Gestor de Negócio validando a lista ativa ou informando quais inativações deverão ser realizadas
+O time de Digital - Acessos registrará as alterações a partir de chamados no Sistema de ITSM de Digital em nome do Gestor de GQ-Digital.
+O time de Digital - Acessos executará a atualização e finalizará o chamado com status de resolvido.
+
+
+
+Referências
+Não há referências.
+Descrição das Atividades
+Acesse o Citrix via Internet Explorer utilizando o endereço https:// xxxxxxxxxxxxx
+Faça logon utilizando o usuário e senha de rede.
+
+
+
+Clique em Sistemas:
+
+
+
+
+
+
+Em seguida, clique em SISTEMA Y:
+
+
+
+
+Logo após em SISTEMA Y:
+
+
+
+
+Ao abrir a pasta, selecione o SYSTEMA Y informado no chamado:
+
+
+
+Clique em “Opções”:
+
+
+
+
+Clique em “Configurar Segurança”:
+
+
+
+Configurar Segurança: Utilizado para gerenciar o acesso aos usuários do sistema;
+Criar nova conexão: Utilizada para criar uma nova conexão com o Banco de Dados;
+Editar esta conexão: Utilizada para editar uma conexão existente.
+Observação: A equipe de Gestão de Acessos utiliza apenas o módulo “Configurar Segurança”. Os módulos “Criar nova conexão” e “Editar esta conexão” são utilizados somente pelos administradores do sistema.
+
+
+
+Informe o “Login” e “Password”:
+
+
+
+
+O sistema abrirá a tela de menus:
+
+
+
+
+Users: Utilizado para criar usuário;
+Groups: Utilizado para criar grupo;
+App: Utilizado para criar aplicações;
+Conects: Utilizado para criar conexão;
+Roles: Utilizado para criar regra;
+Objects: Utilizado para atribuição de acesso ao objeto;
+Restrict: Utilizado para criar restrição de acesso;
+Profiles: Utilizado para atribuir grupo, aplicação e conexão para o usuário;
+Roles: Utilizado para atribuir regra para o usuário ou grupo.
+
+
+: A alteração de acesso pode ser realizada para o grupo ou para o usuário, conforme informado no chamado.
+
+
+Alteração para o usuário, clique em “Profiles”, marque a opção “User” na primeira coluna, localize o nome do usuário. Na segunda coluna, localize a aplicação que o usuário solicitou acesso:
+
+
+
+
+Clique sobre a aplicação solicitada e arraste até o usuário da primeira coluna. Em seguida clique em “Yes” para atribuir o acesso e “Save”:
+
+Alteração para o grupo, clique em “Profiles”, marque a opção “Groups” na primeira coluna, localize o nome do grupo. Na segunda coluna, localize a aplicação que o usuário solicitou acesso:
+
+
+Clique sobre a aplicação solicitada e arraste até o grupo da primeira coluna. Em seguida clique em “Yes” para atribuir o acesso e “Save”:
+
+
+Anexos
+Não há anexos.
+
+até, a fim de torná-la disponível para os usuários.

@@ -1,0 +1,65 @@
+INSTRUÇÃO DE TRABALHO (IT)
+Manutenção de Perfil no SISTEMA Y
+Introdução / Pré-requisitos para execução da IT
+Este documento estabelece o procedimento para os analistas de Acesso criar, alterar e/ou modificar Perfil e Funções no SISTEMA Y (SISTEMA Y e Pagamento aos Distribuidores e Redes) que podem ser acessados através do endereço do ambiente de produção https://xxxxxxxxxxxxxxxx
+Para os demais ambientes, os endereços são:
+DEV: https://xxxxxxxxxxxxxxxx
+QAS: https://xxxxxxxxxxxxxxxx
+Pré-requisitos:
+a) O usuário precisa estar cadastrado no AD.
+b) O acesso ao sistema Web poderá ser pelo Google Chrome e Internet Explorer (IE).
+
+Ter e-mail de autorização da responsável pelo negócio, que atualmente a responsável é a XXXX . Na sua ausência, a responsável será a XXXX
+
+ Revisão Semestral de Acessos
+Regularmente os acessos ao Sistema deverão ser revisados pelo Gestor do time de GQ-Digital.
+A lista de acessos ativos no sistema será gerada pelo time de Digital - Acessos
+A lista deve ser respondida pelo Gestor de Negócio validando a lista ativa ou informando quais inativações deverão ser realizadas
+O time de Digital - Acessos registrará as alterações a partir de chamados no Sistema de ITSM de Digital em nome do Gestor de GQ-Digital.
+O time de Digital - Acessos executará a atualização e finalizará o chamado com status de resolvido.
+
+Referências
+Não há referências.
+Descrição das Atividades
+
+Perfil
+Tela para cadastrar perfis.
+
+
+· Descrição: informar o perfil.
+Após o perfil informado, para gravar clicar em
+Observação: Todo registro criado é gravado com o status Ativo.
+Além das funcionalidades de excluir e editar existe a funcionalidade de alterar status, Uma vez clicado nesta opção, o sistema abrirá um pop-up informando se realmente deseja alterar o status, se clicar em, o sistema alterará o status do perfil. Se tiver ativo, desativará e se estiver desativado, ativará.
+
+Exemplo:
+
+
+
+Perfil Administrador está ativo, clicando em , aparecerá a seguinte mensagem:
+
+
+Ao clicar em, o sistema alterará o status.
+
+Na funcionalidade excluir, caso o perfil já esteja associado a uma função e usuário, o sistema não permitirá a exclusão, exibindo a seguinte mensagem de erro: Função
+
+NOTA: O Cadastro de função será realizado pela equipe de Web. A associação da função ao perfil que é de responsabilidade da equipe de Acesso.
+ Tela para cadastrar funções.
+Para adicionar uma nova função, clicar em.
+
+
+· Código: informar um código. Nesse campo deve ser informado um objeto de desenvolvimento. Para o nome do código, segue as recomendações dadas pelo fornecedor.
+· Descrição: informar uma descrição da função.
+Para gravar os dados informados, clicar em
+
+Observação: Todo registro criado é gravado com o status Ativo.
+Além das funcionalidades de excluir e editar existe a funcionalidade de alterar status, . Uma vez clicado nesta opção, o sistema abrirá um pop-up informando se realmente deseja alterar o status, se clilcar em , o sistema alterará o status do perfil. Se tiver ativo, desativará e se estiver desativado, ativará.
+Exemplo:
+
+A função pgnAgrpLinhaProduto está ativo, clicando em, aparecerá a seguinte mensagem:
+
+
+ Na funcionalidade excluir, caso a função já esteja associado a um perfil, o sistema não permitirá a exclusão, exibindo a seguinte mensagem de erro:
+
+
+Anexos
+Não há anexos.

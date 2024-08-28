@@ -1,0 +1,44 @@
+IT- INSTRUÇÃO DE TRABALHO
+CS - SAP - INATIVAÇÃO DE USUÁRIO NO SAP ZBO104 E SAP PORTAL
+Introdução
+Pré-requisitos para execução da IT
+Esta instrução de trabalho tem como objetivo orientar os analistas no processo de inativação uma conta de sistema SAP ou Portal no cadastro único de usuários do SAP.
+Pré-requisitos:
+a) Acesso ao SAP ERP Produção;
+b) Número da Identidade do usuário no SAP, ou número do CPF;
+c) Acesso à transação A, para RH;
+d) Acesso à transação B, para Central de Serviços;
+e) Acesso à transação C, para Gestão de Acessos.
+
+ Revisão Semestral de Acessos
+Regularmente os acessos ao Sistema deverão ser revisados pelo Gestor do time de GQ-Digital.
+A lista de acessos ativos no sistema será gerada pelo time de Digital - Acessos
+A lista deve ser respondida pelo Gestor de Negócio validando a lista ativa ou informando quais inativações deverão ser realizadas
+O time de Digital - Acessos registrará as alterações a partir de chamados no Sistema de ITSM de Digital em nome do Gestor de GQ-Digital.
+O time de Digital - Acessos executará a atualização e finalizará o chamado com status de resolvido.
+
+
+
+Referências
+Descrição das Atividades
+A inativação de usuário no Sistema SAP e Portal é realizada de forma automática, através das transações: ZBO127, ZBO104 e ZBO106.
+3.1 Inativação de usuário através da transação A
+Inativação de Usuário pelo RH, é realizada a inativação de Funcionários e Terceiros pelo RH e apenas de Terceiros pela Central de Serviços no sistema SAP e Portal.
+3.2 Inativação de usuário através da transação B
+A inativação de terceiros no sistema SAP e Portal é realizada através da ZBO104 e executada pela equipe da Central de Serviços
+3.3 Inativação de usuário através da C
+A inativação dos colaboradores (CLT e terceiros) no sistema SAP e Portal SAP é realizada através da ZBO106 e executada pela equipe de Gestão de Acessos
+3.4 Após as equipes citadas acima executarem o processo de inativação, o sistema identificará se o usuário possui acesso ao SAP e Portal SAP. Caso possua, o acesso será desativado automaticamente conforme ilustração abaixo:
+ 3.4.1
+Será alterado “status cta” do usuário na BBO104 para “I” de Inativo.
+3.4.2 No ambiente 06) SAP Solution Manager, transação SU01, ocorrerá as seguintes alterações:
+3.4.2.1 Na aba “Endereço” o campo “Edifício” será alterado para “INATIVOS”:
+3.4.2.2 Na aba “Sists.” serão removidos todos os sistemas de acesso.
+3.4.2.3 Na aba “Funçs.” serão removidos todos os perfis de acesso.
+3.4.2.4 Na aba “Grupos” será incluso o grupo “INATIVOS”.
+3.4.2.5 Usuário ficará com bloqueio global.
+
+ 3.4.2.6 No Portal SAP, na aba “Informações sobre a conta” o campo “Conta de usuário bloqueada” ficará selecionado. Esta aba também informa o histórico de bloqueio do usuário através do campo “Última data de bloqueio da conta:”.
+3.5 Para identificar o histórico de inativação do usuário no SAP, é necessário executar o relatório fornecido pela transação CCCC01
+Anexos
+Não há anexos.
